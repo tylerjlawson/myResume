@@ -1,6 +1,6 @@
 body {
     font: normal 1em/1.456 "soleil", sans-serif;
-    font-size: 16px;
+    font-size: 13px;
 }
 h1, h2, h3, h4, h5, h6 {
     font: 400 1.8em/1.1 "soleil semibold", sans-serif;
@@ -11,11 +11,11 @@ h1{
     font-size: 72px;
 }
 h2 {
-    font-size: 26px;
+    font-size: 24px;
 }
 h3 {
     font-family: "soleil book";
-    font-size: 19px;
+    font-size: 17px;
 }
 h4 {
     font-size: 1.3em;

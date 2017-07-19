@@ -4,18 +4,55 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url(/assets/css/partials/fonts.css);
 @import url(/assets/css/partials/typography.css);
-/* line 10, ../sass/default.scss */
+/* line 16, ../sass/default.scss */
 .Page-Wrap {
-  padding: .75in;
+  padding: .5in;
 }
 
-/* line 13, ../sass/default.scss */
+/* line 19, ../sass/default.scss */
 .Date-Line {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 17, ../sass/default.scss */
-.date {
+/* line 23, ../sass/default.scss */
+.Date {
   margin: 0;
+}
+
+/* line 27, ../sass/default.scss */
+.Header {
+  border-bottom: 3px solid #4e4e4e;
+  padding-bottom: 1rem;
+}
+/* line 30, ../sass/default.scss */
+.Header .Page-Title {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 31, ../sass/default.scss */
+.Header .Page-Title h1 {
+  margin-bottom: 1rem;
+}
+/* line 36, ../sass/default.scss */
+.Header .Page-Title .Address {
+  margin-top: 1rem;
+}
+/* line 38, ../sass/default.scss */
+.Header .Page-Title .Address p {
+  margin: 0;
+  margin-bottom: .5rem;
+  font-size: 16px;
+}
+/* line 46, ../sass/default.scss */
+.Header .Header-Info a {
+  display: inline-block;
+  text-decoration: none;
+  color: #4e4e4e;
+}
+/* line 51, ../sass/default.scss */
+.Header .Header-Info a + a {
+  border-left: 2px solid #919191;
+  padding-left: 1rem;
+  margin-left: 1rem;
 }

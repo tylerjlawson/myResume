@@ -7,13 +7,51 @@
 
 @import '/assets/css/partials/typography.css';
 
+$black: #000;
+$dark-liver: #4e4e4e;
+$spanish-gray: #919191;
+$silver: #c3c1c1;
+$white: #fff;
+
 .Page-Wrap{
-	padding: .75in;
+	padding: .5in;
 }
 .Date-Line {
     display: flex;
     justify-content: space-between;
 }
-.date{
+.Date{
 	margin: 0;
+}
+
+.Header{
+	border-bottom: 3px solid $dark-liver;
+	padding-bottom: 1rem;
+	.Page-Title {
+		h1{
+			margin-bottom: 1rem;
+		}
+		display: flex; 
+		justify-content: space-between;
+		.Address{
+			margin-top: 1rem;
+			p{
+				margin: 0;
+				margin-bottom: .5rem;
+				font-size: 16px;
+			}
+		}
+	}
+	.Header-Info{
+		a{
+			display: inline-block;
+			text-decoration: none;
+			color: $dark-liver;
+		}
+		a+a{
+			border-left: 2px solid $spanish-gray;
+			padding-left: 1rem;
+			margin-left: 1rem;
+		}
+	}
 }
