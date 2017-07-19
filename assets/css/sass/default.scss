@@ -13,19 +13,52 @@ $spanish-gray: #919191;
 $silver: #c3c1c1;
 $white: #fff;
 
-.Page-Wrap{
-	padding: .5in;
+
+
+ul {
+  margin: 0;
+  padding-left: .5rem;
+  padding-bottom: .5rem;
 }
-.Date-Line {
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  font-size: 16px;
+  text-indent: -5px;
+}
+.GPA{
+	margin-top: 0;
+}
+.Page-Wrap{
+	padding: .25in .5in;
+}
+.Date-Line, .Extra-Line {
     display: flex;
     justify-content: space-between;
+}
+.Extra-Line{
+	margin-bottom: .5em;
 }
 .Date{
 	margin: 0;
 }
+.degree{
+	width: 257px;
+	margin-top: 0;
+	margin-bottom: .5em;
+	margin-right: 1em;
+}
+.Degree-Line>*{
+	display: inline-block;
+}
 
 .Header{
-	border-bottom: 3px solid $dark-liver;
+	border-bottom: 3px solid $black;
 	padding-bottom: 1rem;
 	.Page-Title {
 		h1{
@@ -46,10 +79,11 @@ $white: #fff;
 		a{
 			display: inline-block;
 			text-decoration: none;
-			color: $dark-liver;
+			color: $black;
+			font-size: 16px;
 		}
 		a+a{
-			border-left: 2px solid $spanish-gray;
+			border-left: 1px solid $black;
 			padding-left: 1rem;
 			margin-left: 1rem;
 		}

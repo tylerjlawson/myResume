@@ -4,55 +4,103 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url(/assets/css/partials/fonts.css);
 @import url(/assets/css/partials/typography.css);
-/* line 16, ../sass/default.scss */
-.Page-Wrap {
-  padding: .5in;
+/* line 18, ../sass/default.scss */
+ul {
+  margin: 0;
+  padding-left: .5rem;
+  padding-bottom: .5rem;
 }
 
-/* line 19, ../sass/default.scss */
-.Date-Line {
+/* line 23, ../sass/default.scss */
+ul.dashed {
+  list-style-type: none;
+}
+
+/* line 26, ../sass/default.scss */
+ul.dashed > li {
+  text-indent: -5px;
+}
+
+/* line 29, ../sass/default.scss */
+ul.dashed > li:before {
+  content: "-";
+  font-size: 16px;
+  text-indent: -5px;
+}
+
+/* line 34, ../sass/default.scss */
+.GPA {
+  margin-top: 0;
+}
+
+/* line 37, ../sass/default.scss */
+.Page-Wrap {
+  padding: .25in .5in;
+}
+
+/* line 40, ../sass/default.scss */
+.Date-Line, .Extra-Line {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 23, ../sass/default.scss */
+/* line 44, ../sass/default.scss */
+.Extra-Line {
+  margin-bottom: .5em;
+}
+
+/* line 47, ../sass/default.scss */
 .Date {
   margin: 0;
 }
 
-/* line 27, ../sass/default.scss */
+/* line 50, ../sass/default.scss */
+.degree {
+  width: 257px;
+  margin-top: 0;
+  margin-bottom: .5em;
+  margin-right: 1em;
+}
+
+/* line 56, ../sass/default.scss */
+.Degree-Line > * {
+  display: inline-block;
+}
+
+/* line 60, ../sass/default.scss */
 .Header {
-  border-bottom: 3px solid #4e4e4e;
+  border-bottom: 3px solid #000;
   padding-bottom: 1rem;
 }
-/* line 30, ../sass/default.scss */
+/* line 63, ../sass/default.scss */
 .Header .Page-Title {
   display: flex;
   justify-content: space-between;
 }
-/* line 31, ../sass/default.scss */
+/* line 64, ../sass/default.scss */
 .Header .Page-Title h1 {
   margin-bottom: 1rem;
 }
-/* line 36, ../sass/default.scss */
+/* line 69, ../sass/default.scss */
 .Header .Page-Title .Address {
   margin-top: 1rem;
 }
-/* line 38, ../sass/default.scss */
+/* line 71, ../sass/default.scss */
 .Header .Page-Title .Address p {
   margin: 0;
   margin-bottom: .5rem;
   font-size: 16px;
 }
-/* line 46, ../sass/default.scss */
+/* line 79, ../sass/default.scss */
 .Header .Header-Info a {
   display: inline-block;
   text-decoration: none;
-  color: #4e4e4e;
+  color: #000;
+  font-size: 16px;
 }
-/* line 51, ../sass/default.scss */
+/* line 85, ../sass/default.scss */
 .Header .Header-Info a + a {
-  border-left: 2px solid #919191;
+  border-left: 1px solid #000;
   padding-left: 1rem;
   margin-left: 1rem;
 }
