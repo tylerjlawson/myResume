@@ -36,7 +36,12 @@ ul.dashed > li:before {
 }
 .Page-Wrap{
 	padding: .25in .5in;
+	max-width: 690px;
+	margin: 0 auto;
 }
+
+
+
 .Date-Line, .Extra-Line {
     display: flex;
     justify-content: space-between;

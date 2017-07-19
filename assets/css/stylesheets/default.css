@@ -36,25 +36,27 @@ ul.dashed > li:before {
 /* line 37, ../sass/default.scss */
 .Page-Wrap {
   padding: .25in .5in;
+  max-width: 690px;
+  margin: 0 auto;
 }
 
-/* line 40, ../sass/default.scss */
+/* line 45, ../sass/default.scss */
 .Date-Line, .Extra-Line {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 44, ../sass/default.scss */
+/* line 49, ../sass/default.scss */
 .Extra-Line {
   margin-bottom: .5em;
 }
 
-/* line 47, ../sass/default.scss */
+/* line 52, ../sass/default.scss */
 .Date {
   margin: 0;
 }
 
-/* line 50, ../sass/default.scss */
+/* line 55, ../sass/default.scss */
 .degree {
   width: 257px;
   margin-top: 0;
@@ -62,43 +64,43 @@ ul.dashed > li:before {
   margin-right: 1em;
 }
 
-/* line 56, ../sass/default.scss */
+/* line 61, ../sass/default.scss */
 .Degree-Line > * {
   display: inline-block;
 }
 
-/* line 60, ../sass/default.scss */
+/* line 65, ../sass/default.scss */
 .Header {
   border-bottom: 3px solid #000;
   padding-bottom: 1rem;
 }
-/* line 63, ../sass/default.scss */
+/* line 68, ../sass/default.scss */
 .Header .Page-Title {
   display: flex;
   justify-content: space-between;
 }
-/* line 64, ../sass/default.scss */
+/* line 69, ../sass/default.scss */
 .Header .Page-Title h1 {
   margin-bottom: 1rem;
 }
-/* line 69, ../sass/default.scss */
+/* line 74, ../sass/default.scss */
 .Header .Page-Title .Address {
   margin-top: 1rem;
 }
-/* line 71, ../sass/default.scss */
+/* line 76, ../sass/default.scss */
 .Header .Page-Title .Address p {
   margin: 0;
   margin-bottom: .5rem;
   font-size: 16px;
 }
-/* line 79, ../sass/default.scss */
+/* line 84, ../sass/default.scss */
 .Header .Header-Info a {
   display: inline-block;
   text-decoration: none;
   color: #000;
   font-size: 16px;
 }
-/* line 85, ../sass/default.scss */
+/* line 90, ../sass/default.scss */
 .Header .Header-Info a + a {
   border-left: 1px solid #000;
   padding-left: 1rem;
