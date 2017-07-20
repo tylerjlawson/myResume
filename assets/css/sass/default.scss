@@ -40,7 +40,11 @@ ul.dashed > li:before {
 	margin: 0 auto;
 }
 
-
+.Extra ul{
+	padding-bottom: 1em;
+    padding-top: 0;
+    margin-top: -.5em;
+}
 
 .Date-Line, .Extra-Line {
     display: flex;
