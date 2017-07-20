@@ -35,7 +35,7 @@ ul.dashed > li:before {
 
 /* line 37, ../sass/default.scss */
 .Page-Wrap {
-  padding: .25in .5in;
+  padding: .3in .5in;
   max-width: 690px;
   margin: 0 auto;
 }
