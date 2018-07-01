@@ -2,8 +2,8 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@import url(/assets/css/partials/fonts.css);
-@import url(/assets/css/partials/typography.css);
+@import url(../partials/fonts.css);
+@import url(../partials/typography.css);
 /* line 18, ../sass/default.scss */
 ul {
   margin: 0;
