@@ -34,6 +34,7 @@ ul.dashed > li:before {
 }
 .GPA{
 	margin-top: 0;
+	margin-bottom: 0;
 }
 .Page-Wrap{
 	padding: .3in .5in;
@@ -44,6 +45,15 @@ ul.dashed > li:before {
 	h2{
 		margin-bottom: .5em;
 	}
+}
+
+.School{
+	margin-bottom: .5em;
+}
+
+li a{
+	padding-left: .3em;
+	font-size: inherit;
 }
 
 .Extra ul{
@@ -67,7 +77,7 @@ ul.dashed > li:before {
 .degree{
 	width: 257px;
 	margin-top: 0;
-	margin-bottom: .5em;
+	margin-bottom: 0;
 	margin-right: 1em;
 }
 .Degree-Line>*{

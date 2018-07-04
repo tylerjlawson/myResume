@@ -32,59 +32,71 @@ ul.dashed > li:before {
 /* line 35, ../sass/default.scss */
 .GPA {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
-/* line 38, ../sass/default.scss */
+/* line 39, ../sass/default.scss */
 .Page-Wrap {
   padding: .3in .5in;
   max-width: 690px;
   margin: 0 auto;
 }
 
-/* line 44, ../sass/default.scss */
+/* line 45, ../sass/default.scss */
 .Extracurriculars h2 {
   margin-bottom: .5em;
 }
 
-/* line 49, ../sass/default.scss */
+/* line 50, ../sass/default.scss */
+.School {
+  margin-bottom: .5em;
+}
+
+/* line 54, ../sass/default.scss */
+li a {
+  padding-left: .3em;
+  font-size: inherit;
+}
+
+/* line 59, ../sass/default.scss */
 .Extra ul {
   padding-bottom: 1em;
   padding-top: 0;
   margin-top: -.5em;
 }
 
-/* line 55, ../sass/default.scss */
+/* line 65, ../sass/default.scss */
 .Date-Line, .Extra-Line {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 59, ../sass/default.scss */
+/* line 69, ../sass/default.scss */
 .Extra-Line {
   margin-bottom: .5em;
 }
 
-/* line 62, ../sass/default.scss */
+/* line 72, ../sass/default.scss */
 .Date {
   margin: 0;
   font-size: 15px;
   font-family: 'soleil semibold';
 }
 
-/* line 67, ../sass/default.scss */
+/* line 77, ../sass/default.scss */
 .degree {
   width: 257px;
   margin-top: 0;
-  margin-bottom: .5em;
+  margin-bottom: 0;
   margin-right: 1em;
 }
 
-/* line 73, ../sass/default.scss */
+/* line 83, ../sass/default.scss */
 .Degree-Line > * {
   display: inline-block;
 }
 
-/* line 77, ../sass/default.scss */
+/* line 87, ../sass/default.scss */
 a {
   display: inline-block;
   text-decoration: none;
@@ -92,40 +104,40 @@ a {
   font-size: 16px;
 }
 
-/* line 84, ../sass/default.scss */
+/* line 94, ../sass/default.scss */
 .Header {
   border-bottom: 3px solid #000;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
-/* line 89, ../sass/default.scss */
+/* line 99, ../sass/default.scss */
 .Header .Page-Title {
   display: flex;
   justify-content: space-between;
 }
-/* line 90, ../sass/default.scss */
+/* line 100, ../sass/default.scss */
 .Header .Page-Title h1 {
   margin-bottom: 1rem;
 }
-/* line 95, ../sass/default.scss */
+/* line 105, ../sass/default.scss */
 .Header .Page-Title .Address {
   margin-top: 1rem;
   text-align: right;
 }
-/* line 98, ../sass/default.scss */
+/* line 108, ../sass/default.scss */
 .Header .Page-Title .Address p {
   margin: 0;
   margin-bottom: .5rem;
   font-size: 16px;
 }
-/* line 107, ../sass/default.scss */
+/* line 117, ../sass/default.scss */
 .Header .Header-Info a + a {
   border-left: 1px solid #000;
   padding-left: 1rem;
   margin-left: 1rem;
 }
 
-/* line 116, ../sass/default.scss */
+/* line 126, ../sass/default.scss */
 .obj {
   margin: .25rem 0;
 }
