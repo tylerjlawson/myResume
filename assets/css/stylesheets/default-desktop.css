@@ -1,33 +1,26 @@
-/* line 1, ../sass/default-desktop.scss */
 .box {
-  position: relative;
-  width: 790px;
-  margin: 0 auto;
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
-}
+  margin: 0 auto;
+  position: relative;
+  width: 790px; }
 
-/* line 8, ../sass/default-desktop.scss */
-.box:before, .box:after {
+.box::before,
+.box::after {
+  background: transparent;
+  bottom: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  content: ' ';
+  height: 10px;
+  left: 12px;
   position: absolute;
   width: 40%;
-  height: 10px;
-  content: ' ';
-  left: 12px;
-  bottom: 12px;
-  background: transparent;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-  z-index: -1;
-}
+  z-index: -1; }
 
-/* line 20, ../sass/default-desktop.scss */
-.box:after {
+.box::after {
   left: auto;
   right: 12px;
-  transform: skew(5deg) rotate(5deg);
-}
+  transform: skew(5deg) rotate(5deg); }
 
-/* line 26, ../sass/default-desktop.scss */
 body {
-  padding: 3rem;
-}
+  padding: 3rem; }

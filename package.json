@@ -1,0 +1,25 @@
+{
+  "name": "myresume",
+  "version": "1.0.0",
+  "description": "Resume",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerjlawson/myResume.git"
+  },
+  "author": "tylerjlawson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylerjlawson/myResume/issues"
+  },
+  "homepage": "https://github.com/tylerjlawson/myResume#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0"
+  }
+}

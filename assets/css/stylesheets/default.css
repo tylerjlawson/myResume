@@ -1,143 +1,68 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url(../partials/fonts.css);
 @import url(../partials/typography.css);
-/* line 18, ../sass/default.scss */
 ul {
   margin: 0;
-  padding-left: .5rem;
   padding-bottom: .5rem;
-}
+  padding-left: .5rem; }
 
-/* line 23, ../sass/default.scss */
-ul.dashed {
-  list-style-type: none;
-}
+.dashed {
+  list-style-type: none; }
+  .dashed li {
+    text-indent: -5px; }
+    .dashed li::before {
+      content: '-';
+      font-size: 16px;
+      padding-right: 3px;
+      text-indent: -5px; }
 
-/* line 26, ../sass/default.scss */
-ul.dashed > li {
-  text-indent: -5px;
-}
-
-/* line 29, ../sass/default.scss */
-ul.dashed > li:before {
-  content: "-";
-  font-size: 16px;
-  text-indent: -5px;
-  padding-right: 3px;
-}
-
-/* line 35, ../sass/default.scss */
-.GPA {
-  margin-top: 0;
+.gpa {
   margin-bottom: 0;
-}
+  margin-top: 0; }
 
-/* line 39, ../sass/default.scss */
-.Page-Wrap {
-  padding: .3in .5in;
-  max-width: 690px;
+.wrap {
   margin: 0 auto;
-}
+  max-width: 690px;
+  padding: .3in .5in; }
 
-/* line 45, ../sass/default.scss */
-.Extracurriculars h2 {
-  margin-bottom: .5em;
-}
+.school {
+  margin-bottom: .5em; }
 
-/* line 52, ../sass/default.scss */
-.School {
-  margin-bottom: .5em;
-}
-
-/* line 56, ../sass/default.scss */
 li a {
-  padding-left: .3em;
   font-size: inherit;
-}
+  padding-left: .3em; }
 
-/* line 61, ../sass/default.scss */
-.Extra ul {
-  padding-bottom: 1em;
-  padding-top: 0;
-  margin-top: -.5em;
-}
-
-/* line 67, ../sass/default.scss */
-.Date-Line, .Extra-Line {
+.date-line {
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
-/* line 71, ../sass/default.scss */
-.Extra-Line {
-  margin-bottom: .5em;
-}
-
-/* line 74, ../sass/default.scss */
-.Date {
-  margin: 0;
-  font-size: 15px;
-  font-family: 'soleil semibold';
-}
-
-/* line 79, ../sass/default.scss */
 .degree {
-  width: 257px;
-  margin-top: 0;
   margin-bottom: 0;
   margin-right: 1em;
-}
+  margin-top: 0;
+  width: 257px; }
 
-/* line 85, ../sass/default.scss */
-.Degree-Line > * {
-  display: inline-block;
-}
+.degree-line > * {
+  display: inline-block; }
 
-/* line 89, ../sass/default.scss */
 a {
-  display: inline-block;
-  text-decoration: none;
   color: #000;
+  display: inline-block;
   font-size: 16px;
-}
+  text-decoration: none; }
 
-/* line 96, ../sass/default.scss */
-.Header {
+.header {
   border-bottom: 3px solid #000;
-  padding-bottom: 1rem;
   margin-bottom: 1rem;
-}
-/* line 101, ../sass/default.scss */
-.Header .Page-Title {
-  display: flex;
-  justify-content: space-between;
-}
-/* line 102, ../sass/default.scss */
-.Header .Page-Title h1 {
-  margin-bottom: 1rem;
-}
-/* line 107, ../sass/default.scss */
-.Header .Page-Title .Address {
-  margin-top: 1rem;
-  text-align: right;
-}
-/* line 110, ../sass/default.scss */
-.Header .Page-Title .Address p {
-  margin: 0;
-  margin-bottom: .5rem;
-  font-size: 16px;
-}
-/* line 119, ../sass/default.scss */
-.Header .Header-Info a + a {
-  border-left: 1px solid #000;
-  padding-left: 1rem;
-  margin-left: 1rem;
-}
+  padding-bottom: 1rem; }
+  .header .page-title {
+    display: flex;
+    justify-content: space-between; }
+    .header .page-title h1 {
+      margin-bottom: 1rem; }
+  .header .header-info a + a {
+    border-left: 1px solid #000;
+    margin-left: 1rem;
+    padding-left: 1rem; }
 
-/* line 128, ../sass/default.scss */
 .obj {
-  margin: .25rem 0;
-}
+  margin: .25rem 0; }
