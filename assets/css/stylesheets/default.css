@@ -1,9 +1,53 @@
 @import url(../partials/fonts.css);
-@import url(../partials/typography.css);
+body {
+  font: normal 1em/1.456 'soleil', sans-serif;
+  font-size: 13px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font: 400 1.8em/1.1 'soleil semibold', sans-serif;
+  margin: 0 0 0.25em; }
+
+h1 {
+  font-size: 65px; }
+
+h2 {
+  font-size: 21px; }
+
+h3 {
+  font-size: 15px;
+  margin-bottom: 0; }
+
+h4 {
+  font-size: 1.3em; }
+
+h5 {
+  font-size: 1.2em; }
+
+h6 {
+  font-size: 1.1em; }
+
+b,
+strong {
+  font-weight: bold; }
+
+.degree {
+  font-family: 'soleil italic'; }
+
+/*Links*/
+a {
+  text-decoration: underline; }
+  a:hover {
+    text-decoration: none; }
+
 ul {
   margin: 0;
-  padding-bottom: .5rem;
-  padding-left: .5rem; }
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem; }
 
 .dashed {
   list-style-type: none; }
@@ -22,14 +66,14 @@ ul {
 .wrap {
   margin: 0 auto;
   max-width: 690px;
-  padding: .3in .5in; }
+  padding: 0.3in 0.5in; }
 
 .school {
-  margin-bottom: .5em; }
+  margin-bottom: 0.5em; }
 
 li a {
   font-size: inherit;
-  padding-left: .3em; }
+  padding-left: 0.3em; }
 
 .date-line {
   display: flex;
@@ -65,4 +109,4 @@ a {
     padding-left: 1rem; }
 
 .obj {
-  margin: .25rem 0; }
+  margin: 0.25rem 0; }

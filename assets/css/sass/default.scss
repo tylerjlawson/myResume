@@ -1,5 +1,5 @@
 @import '../partials/fonts.css';
-@import '../partials/typography.css';
+@import '../partials/typography.scss';
 $black: #000;
 $dark-liver: #4e4e4e;
 $spanish-gray: #919191;
@@ -8,8 +8,8 @@ $white: #fff;
 
 ul {
   margin: 0;
-  padding-bottom: .5rem;
-  padding-left: .5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .dashed {
@@ -35,16 +35,16 @@ ul {
 .wrap {
   margin: 0 auto;
   max-width: 690px;
-  padding: .3in .5in;
+  padding: 0.3in 0.5in;
 }
 
 .school {
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 li a {
   font-size: inherit;
-  padding-left: .3em;
+  padding-left: 0.3em;
 }
 
 .date-line {
@@ -84,7 +84,7 @@ a {
     }
   }
 
-  .header-info a + a {
+  .header-info a+a {
     border-left: 1px solid $black;
     margin-left: 1rem;
     padding-left: 1rem;
@@ -92,5 +92,5 @@ a {
 }
 
 .obj {
-  margin: .25rem 0;
+  margin: 0.25rem 0;
 }

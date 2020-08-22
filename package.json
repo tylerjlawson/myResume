@@ -4,7 +4,9 @@
   "description": "Resume",
   "main": "Gulpfile.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "pretty": "prettier --write assets/css/sass/* assets/css/partials/* index.html print.js",
+    "build": "node print.js && pwd"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,8 @@
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^4.1.0",
+    "html-pdf": "^2.2.0",
+    "prettier": "^2.0.5"
   }
 }
