@@ -20,7 +20,6 @@
   "homepage": "https://github.com/tylerjlawson/myResume#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "filereader": "^0.10.3",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^4.1.0",
