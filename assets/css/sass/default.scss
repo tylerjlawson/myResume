@@ -27,11 +27,6 @@ ul {
   }
 }
 
-.gpa {
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
 .wrap {
   margin: 0 auto;
   max-width: 690px;
@@ -39,12 +34,12 @@ ul {
 }
 
 .school {
-  margin-bottom: 0.5em;
+  margin-bottom: 5pxm;
 }
 
 li a {
   font-size: inherit;
-  padding-left: 0.3em;
+  padding-left: 5px;
 }
 
 .date-line {
@@ -59,7 +54,7 @@ li a {
   width: 257px;
 }
 
-.degree-line>* {
+.degree-line > * {
   display: inline-block;
 }
 
@@ -72,19 +67,19 @@ a {
 
 .header {
   border-bottom: 3px solid $black;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
 
   .page-title {
     display: flex;
     justify-content: space-between;
 
     h1 {
-      margin-bottom: 1rem;
+      margin-bottom: 15px;
     }
   }
 
-  .header-info a+a {
+  .header-info a + a {
     border-left: 1px solid $black;
     margin-left: 1rem;
     padding-left: 1rem;

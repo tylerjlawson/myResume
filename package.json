@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gulp",
     "pretty": "prettier --write assets/css/sass/* assets/css/partials/* index.html print.js",
-    "build": "node print.js && pwd"
+    "build": "node print.js"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,17 @@
   "homepage": "https://github.com/tylerjlawson/myResume#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
+    "filereader": "^0.10.3",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^4.1.0",
     "html-pdf": "^2.2.0",
+    "husky": "^4.2.5",
     "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run build && git add ."
+    }
   }
 }

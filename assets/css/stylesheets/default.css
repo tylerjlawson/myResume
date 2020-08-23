@@ -1,7 +1,7 @@
 @import url(../partials/fonts.css);
 body {
-  font: normal 1em/1.456 'soleil', sans-serif;
-  font-size: 13px; }
+  font-family: 'soleil', sans-serif;
+  font-size: 12px; }
 
 h1,
 h2,
@@ -9,40 +9,21 @@ h3,
 h4,
 h5,
 h6 {
-  font: 400 1.8em/1.1 'soleil semibold', sans-serif;
-  margin: 0 0 0.25em; }
+  font-family: 'soleil semibold', sans-serif;
+  margin: 0 0 5px; }
 
 h1 {
-  font-size: 65px; }
+  font-size: 50px; }
 
 h2 {
-  font-size: 21px; }
+  font-size: 18px; }
 
 h3 {
-  font-size: 15px;
+  font-size: 13px;
   margin-bottom: 0; }
-
-h4 {
-  font-size: 1.3em; }
-
-h5 {
-  font-size: 1.2em; }
-
-h6 {
-  font-size: 1.1em; }
-
-b,
-strong {
-  font-weight: bold; }
 
 .degree {
   font-family: 'soleil italic'; }
-
-/*Links*/
-a {
-  text-decoration: underline; }
-  a:hover {
-    text-decoration: none; }
 
 ul {
   margin: 0;
@@ -59,21 +40,17 @@ ul {
       padding-right: 3px;
       text-indent: -5px; }
 
-.gpa {
-  margin-bottom: 0;
-  margin-top: 0; }
-
 .wrap {
   margin: 0 auto;
   max-width: 690px;
   padding: 0.3in 0.5in; }
 
 .school {
-  margin-bottom: 0.5em; }
+  margin-bottom: 5pxm; }
 
 li a {
   font-size: inherit;
-  padding-left: 0.3em; }
+  padding-left: 5px; }
 
 .date-line {
   display: flex;
@@ -96,13 +73,13 @@ a {
 
 .header {
   border-bottom: 3px solid #000;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem; }
+  margin-bottom: 15px;
+  padding-bottom: 15px; }
   .header .page-title {
     display: flex;
     justify-content: space-between; }
     .header .page-title h1 {
-      margin-bottom: 1rem; }
+      margin-bottom: 15px; }
   .header .header-info a + a {
     border-left: 1px solid #000;
     margin-left: 1rem;
