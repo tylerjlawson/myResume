@@ -10,10 +10,10 @@ var options = {
     top: vericalMargin,
     bottom: vericalMargin,
     left: horizontalMargin,
-    right: horizontalMargin,
+    right: horizontalMargin
   },
   height: '11in',
-  width: '8.5in',
+  width: '8.5in'
 };
 
 pdf.create(html, options).toFile('./Resume.pdf', function (err, res) {

@@ -7,7 +7,8 @@ const cssDir = 'assets/css/stylesheets';
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function () {
-  return gulp.src(scssDir + '/*.scss')
+  return gulp
+    .src(scssDir + '/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest(cssDir))
     .pipe(browserSync.stream());

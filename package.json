@@ -5,7 +5,7 @@
   "main": "Gulpfile.js",
   "scripts": {
     "start": "gulp",
-    "pretty": "prettier --write assets/css/sass/* assets/css/partials/* index.html print.js",
+    "pretty": "prettier --write assets/css/sass/* assets/css/partials/* index.html **.js",
     "build": "node print.js"
   },
   "repository": {
@@ -21,7 +21,6 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
     "gulp-sass": "^4.1.0",
     "html-pdf": "^2.2.0",
     "husky": "^4.2.5",
@@ -29,7 +28,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn run build && git add Resume.pdf"
+      "pre-commit": "yarn run build && yarn run pretty && git add Resume.pdf"
     }
   }
 }
