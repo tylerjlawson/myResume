@@ -28,7 +28,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn run build && yarn run pretty && git add Resume.pdf"
+      "pre-commit": "yarn build && yarn pretty && git add Resume.pdf"
     }
   }
 }
