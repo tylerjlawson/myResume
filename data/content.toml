@@ -56,3 +56,22 @@ points = [
   "Styled pages to be fully responsive (i.e. desktop, tablet, mobile, and print version)",
   "Made small design decisions when styling something that is not designed in the comps"
 ]
+
+[[info]]
+name = "Projects"
+points = [
+  "I am team lead and full stack web developer on my capstone project which uses Machine Learning for image recognition and gps prediction of elephants",
+  "I made a python script for re-naming and re-dating image files for family photos",
+  "I used python to make a page screenshotter script that takes a URL and returns screenshots of all pages on the site using web scraping techniques",
+  "I have made a Caesar Cypher, Password Cracker, and Baker's Game using Python",
+  "I have made many websites on my own as a Web developer using static site generators and raw CSS/HTML",
+  "I created programs such as the Snake game, Hangman, an AI chatbot, and an adaptation of MS Paint using Java"
+]
+
+[[info]]
+name = "Technical Skills"
+points = [
+  "Proficient in Python, Java, Common Lisp, C++, Bash, CSS, and HTML",
+  "Coursework in Algorithm Engineering, Database Systems, Software Design, Operating Systems, Data Structures and Algorithms, Computer Organization and architecture, Discrete Structures, and Intro to Programming I and II",
+  "Currently taking capstone course and intro to machine learning"
+]
