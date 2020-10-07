@@ -4,3 +4,18 @@ phone = "7814248005"
 website = "Tyler-Lawson.com"
 github = "TylerJLawson"
 objective = "Seeking a full time position, starting summer 2020."
+
+[[schools]]
+name = "Michigan State University"
+location = "East Lansing, MI"
+startdate = "Sept 2016"
+enddate = "May 2020"
+degrees = ["B.S. in Computer Science", "Minor in Entrepreneurship and Innovation"]
+
+[[schools]]
+name = "Boston College High School"
+location = "Boston, MA"
+startdate = "Sept 2012"
+enddate = "May 2016"
+degrees = ["Diploma"]
+

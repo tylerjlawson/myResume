@@ -13,30 +13,9 @@
           </p>
         </div>
         {{ end }}
-        <div>
-          <h2>Education</h2>
-          <div class="School MSU">
-            <div class="date-line">
-              <h3>Michigan State University - East Lansing, MI</h3>
-              <h3>Sept 2016 - May 2020</h3>
-            </div>
-            <div class="Degree-Line">
-              <p class="degree">B.S. in Computer Science</p>
-            </div>
-            <div class="Degree-Line">
-              <p class="degree">Minor in Entrepreneurship and Innovation</p>
-            </div>
-          </div>
-          <div class="school">
-            <div class="date-line">
-              <h3>Boston College High School - Boston, MA</h3>
-              <h3>Sept 2012 - May 2016</h3>
-            </div>
-            <div class="degree-line">
-              <p class="degree">Diploma</p>
-            </div>
-          </div>
-        </div>
+        {{ with .schools }}
+        {{ partial "schools.html" . }}
+        {{ end }}
         <div>
           <h2>Experience</h2>
           <div>
