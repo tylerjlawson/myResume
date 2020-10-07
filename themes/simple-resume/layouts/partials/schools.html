@@ -4,7 +4,7 @@
   <div class="School">
     <div class="date-line">
       <h3>{{ .name }} - {{ .location }}</h3>
-      <h3>{{ .startdate }} - {{ .enddate }}</h3>
+      <h3>{{ .startdate }} - {{ if .enddate }}{{ .enddate }}{{ else }}Current{{ end }}</h3>
     </div>
     {{ range .degrees }}
     <div class="Degree-Line">

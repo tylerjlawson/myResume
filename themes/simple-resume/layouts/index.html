@@ -16,74 +16,9 @@
         {{ with .schools }}
         {{ partial "schools.html" . }}
         {{ end }}
-        <div>
-          <h2>Experience</h2>
-          <div>
-            <div class="date-line">
-              <h3>Software Development Intern Humana - Louisville, KY</h3>
-              <h3>May 2019 - Current</h3>
-            </div>
-            <ul class="dashed">
-              <li>
-                Developed Python Flask API for a UI that will serve as project
-                estimation management system for architects
-              </li>
-              <li>
-                Worked with Azure pipelines and GCP app engine to facilitate
-                continuous integration and deployment
-              </li>
-              <li>
-                Currently working on new project with a Vuejs frontend and
-                .NET Core API
-              </li>
-            </ul>
-          </div>
-          <div>
-            <div class="date-line">
-              <h3>Software Development Intern at 2Is inc. - Walpole, MA</h3>
-              <h3>May 2018 - August 2019</h3>
-            </div>
-            <ul class="dashed">
-              <li>
-                Used Test Driven Development technique to develop an SAP
-                Interface with Northrop Grumman
-              </li>
-              <li>Wrote back-end code using Common Lisp</li>
-              <li>
-                Made installers for the 2Is Analytic Platform using Inno Setup
-                and Pascal
-              </li>
-              <li>
-                Did QA on many projects by rewriting and creating new unit
-                tests in Common Lisp
-              </li>
-              <li>
-                Wrote Lisp and Microsoft SQL to setup a SQL server for data
-                analytics
-              </li>
-            </ul>
-          </div>
-          <div>
-            <div class="date-line">
-              <h3>Front End Development Intern at Getfused - Boston, MA</h3>
-              <h3>May 2017 - Aug 2017</h3>
-            </div>
-            <ul class="dashed">
-              <li>
-                Built sites for Wynn Casino and other small local businesses
-              </li>
-              <li>Wrapped sites using CSS, HTML, and JavaScript</li>
-              <li>
-                Styled pages to be fully responsive (i.e. desktop, tablet,
-                mobile, and print version)
-              </li>
-              <li>
-                Made small design decisions when styling something that is not
-                designed in the comps
-              </li>
-            </ul>
-          </div>
-        </div>
+        {{ with .experiences }}
+        {{ partial "experiences.html" . }}
+        {{ end }}
 
         <div class="Projects">
           <h2>Projects</h2>

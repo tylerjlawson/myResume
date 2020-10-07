@@ -19,3 +19,40 @@ startdate = "Sept 2012"
 enddate = "May 2016"
 degrees = ["Diploma"]
 
+[[experiences]]
+position = "Software Development Intern"
+company = "Humana"
+location = "Louisville, KY"
+startdate = "May 2019"
+points = [
+  "Developed Python Flask API for a UI that will serve as project estimation management system for architects",
+  "Worked with Azure pipelines and GCP app engine to facilitate continuous integration and deployment",
+  "Currently working on new project with a Vuejs frontend and .NET Core API"
+]
+
+[[experiences]]
+position = "Software Development Intern"
+company = "2Is inc."
+location = "Walpole, MA"
+startdate = "May 2018"
+enddate = "August 2019"
+points = [
+  "Used Test Driven Development technique to develop an SAP Interface with Northrop Grumman",
+  "Wrote back-end code using Common Lisp",
+  "Made installers for the 2Is Analytic Platform using Inno Setup and Pascal",
+  "Did QA on many projects by rewriting and creating new unit tests in Common Lisp",
+  "Wrote Lisp and Microsoft SQL to setup a SQL server for data analytics"
+]
+
+[[experiences]]
+position = "Front End Development Intern"
+company = "Getfused"
+location = "Boston, MA"
+startdate = "May 2017"
+enddate = "Aug 2017"
+points = [
+  "Built sites for Wynn Casino and other small local businesses",
+  "Wrapped sites using CSS, HTML, and JavaScript",
+  "Styled pages to be fully responsive (i.e. desktop, tablet, mobile, and print version)",
+  "Made small design decisions when styling something that is not designed in the comps"
+]
