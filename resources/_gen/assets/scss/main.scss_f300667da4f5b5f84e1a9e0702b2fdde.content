@@ -1,6 +1,5 @@
-@import url(../partials/fonts.css);
 body {
-  font-family: 'soleil', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px; }
 
 h1,
@@ -9,7 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'soleil semibold', sans-serif;
+  font-weight: 700;
   margin: 0 0 5px; }
 
 h1 {
@@ -21,9 +20,6 @@ h2 {
 h3 {
   font-size: 13px;
   margin-bottom: 0; }
-
-.degree {
-  font-family: 'soleil italic'; }
 
 ul {
   margin: 0;
@@ -46,7 +42,7 @@ ul {
   padding: 0.3in 0.5in; }
 
 .school {
-  margin-bottom: 5px; }
+  margin-bottom: 5pxm; }
 
 li a {
   font-size: inherit;
@@ -87,3 +83,34 @@ a {
 
 .obj {
   margin: 0.25rem 0; }
+
+@media (min-width: 769px) {
+  .box {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    position: relative;
+    width: 790px; }
+  .box::before,
+  .box::after {
+    background: transparent;
+    bottom: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    content: ' ';
+    height: 10px;
+    left: 12px;
+    position: absolute;
+    width: 40%;
+    z-index: -1; }
+  .box::after {
+    left: auto;
+    right: 12px;
+    transform: skew(5deg) rotate(5deg); }
+  body {
+    padding: 3rem; } }
+
+@media print {
+  .wrap {
+    padding: 0; }
+  html {
+    zoom: 0.8; } }

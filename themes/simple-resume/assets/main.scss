@@ -1,10 +1,17 @@
-@import '../partials/fonts.css';
-@import '../partials/typography.scss';
+@import 'include-media';
+@import 'typography';
+
 $black: #000;
 $dark-liver: #4e4e4e;
 $spanish-gray: #919191;
 $silver: #c3c1c1;
 $white: #fff;
+
+$breakpoints: (
+  phone: 450px,
+  tablet: 768px,
+  desktop: 1024px,
+);
 
 ul {
   margin: 0;
@@ -88,4 +95,47 @@ a {
 
 .obj {
   margin: 0.25rem 0;
+}
+
+@include media('>tablet') {
+  .box {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    position: relative;
+    width: 790px;
+  }
+
+  .box::before,
+  .box::after {
+    background: transparent;
+    bottom: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    content: ' ';
+    height: 10px;
+    left: 12px;
+    position: absolute;
+    width: 40%;
+    z-index: -1;
+  }
+
+  .box::after {
+    left: auto;
+    right: 12px;
+    transform: skew(5deg) rotate(5deg);
+  }
+
+  body {
+    padding: 3rem;
+  }
+}
+
+@media print {
+  .wrap {
+    padding: 0;
+  }
+
+  html {
+    zoom: 0.8;
+  }
 }
