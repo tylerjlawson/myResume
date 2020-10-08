@@ -3,8 +3,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
   {{ $style := resources.Get "main.scss" | toCSS }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}" />
-
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+  <link rel="stylesheet" href="./public/main.css" />
   <link
     rel="stylesheet"
     href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"

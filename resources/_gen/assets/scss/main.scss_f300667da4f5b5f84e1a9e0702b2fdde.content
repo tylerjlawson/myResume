@@ -43,7 +43,11 @@ ul {
   padding: 0.3in 0.5in; }
 
 .heading-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between; }
 
 a {
@@ -92,4 +96,8 @@ header {
   .wrap {
     padding: 0; }
   html {
-    zoom: 0.8; } }
+    zoom: 0.8; }
+  a {
+    font-size: 14px; }
+  h1 {
+    font-size: 45px; } }

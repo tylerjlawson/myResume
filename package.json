@@ -4,9 +4,9 @@
   "description": "Resume",
   "main": "Gulpfile.js",
   "scripts": {
-    "start": "gulp",
-    "pretty": "prettier --write assets/css/sass/* assets/css/partials/* index.html **.js",
-    "build": "node print.js"
+    "start": "hugo server",
+    "build": "hugo",
+    "print": "node print.js"
   },
   "repository": {
     "type": "git",
@@ -19,16 +19,13 @@
   },
   "homepage": "https://github.com/tylerjlawson/myResume#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0",
     "html-pdf": "^2.2.0",
     "husky": "^4.2.5",
     "prettier": "^2.0.5"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn build && yarn pretty && git add Resume.pdf"
+      "pre-commit": "yarn build && yarn print && git add Resume.pdf"
     }
   }
 }
