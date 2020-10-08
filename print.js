@@ -1,6 +1,6 @@
 var fs = require('fs');
 var pdf = require('html-pdf');
-var html = fs.readFileSync('./public/index.html', 'utf-8');
+var html = fs.readFileSync('./public/index.html', 'utf-8').replace('/main.css', './public/main.css');
 const pieces = html.split('./');
 html = pieces.join(`file://${process.cwd()}/`);
 const vericalMargin = '0.25in';
