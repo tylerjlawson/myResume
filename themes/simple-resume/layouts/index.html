@@ -19,14 +19,14 @@
       {{ partial "experiences.html" . }}
       {{ end }}
       {{ range .info }}
-      <div>
+      <section>
         <h2>{{ .name }}</h2>
         <ul>
           {{ range .points }}
           <li>{{ . }}</li>
           {{ end }}
         </ul>
-      </div>
+      </section>
       {{ end }}
     </div>
   </div>
