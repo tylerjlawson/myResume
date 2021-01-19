@@ -3,7 +3,6 @@ email = "tylerjlawson2@gmail.com"
 phone = "7814248005"
 website = "Tyler-Lawson.com"
 github = "TylerJLawson"
-objective = "Seeking a full time position, starting summer 2020."
 
 [[schools]]
 name = "Michigan State University"
@@ -17,17 +16,29 @@ name = "Boston College High School"
 location = "Boston, MA"
 startdate = "Sept 2012"
 enddate = "May 2016"
-degrees = ["Diploma"]
+
+[[experiences]]
+position = "Software Engineer II"
+company = "Author by Humana"
+location = "Boston, MA"
+startdate = "May 2020"
+points = [
+  "Joined in May and helped launch two enterprise websites for the start of the 2021 plan year",
+  "Our websites use React native and Gatsby with Typescript with a shared React components library",
+  "Help maintain a Dotnet/C# api for consuming member insurance information",
+  "Helped mentor teammates with our frontend technologies and have been responsible for a significant share of interteam communications (design, testing, business)"
+]
 
 [[experiences]]
 position = "Software Development Intern"
 company = "Humana"
 location = "Louisville, KY"
-startdate = "May 2019"
+startdate = "May 2020"
+enddate = "Aug 2019"
 points = [
   "Developed Python Flask API for a UI that will serve as project estimation management system for architects",
-  "Worked with Azure pipelines and GCP app engine to facilitate continuous integration and deployment",
-  "Currently working on new project with a Vuejs frontend and .NET Core API"
+  "Worked with Azure pipelines and GCP app engine to facilitate CI/CD",
+  "Worked on a second project, which was a dashboard that used Vue and .NET Core"
 ]
 
 [[experiences]]
@@ -39,9 +50,7 @@ enddate = "August 2019"
 points = [
   "Used Test Driven Development technique to develop an SAP Interface with Northrop Grumman",
   "Wrote back-end code using Common Lisp",
-  "Made installers for the 2Is Analytic Platform using Inno Setup and Pascal",
-  "Did QA on many projects by rewriting and creating new unit tests in Common Lisp",
-  "Wrote Lisp and Microsoft SQL to setup a SQL server for data analytics"
+  "Refactored legacy code and created new unit tests in Common Lisp"
 ]
 
 [[experiences]]
@@ -52,26 +61,21 @@ startdate = "May 2017"
 enddate = "Aug 2017"
 points = [
   "Built sites for Wynn Casino and other small local businesses",
-  "Wrapped sites using CSS, HTML, and JavaScript",
-  "Styled pages to be fully responsive (i.e. desktop, tablet, mobile, and print version)",
-  "Made small design decisions when styling something that is not designed in the comps"
+  "Took mockups from photoshop files and translated the designs into responsive CSS/HTML"
 ]
 
 [[info]]
 name = "Projects"
 points = [
-  "I am team lead and full stack web developer on my capstone project which uses Machine Learning for image recognition and gps prediction of elephants",
+  "I was team lead and full stack web developer on my capstone project which uses Machine Learning for image recognition and gps prediction of elephants",
   "I made a python script for re-naming and re-dating image files for family photos",
-  "I used python to make a page screenshotter script that takes a URL and returns screenshots of all pages on the site using web scraping techniques",
-  "I have made a Caesar Cypher, Password Cracker, and Baker's Game using Python",
-  "I have made many websites on my own as a Web developer using static site generators and raw CSS/HTML",
-  "I created programs such as the Snake game, Hangman, an AI chatbot, and an adaptation of MS Paint using Java"
+  "I have made many websites on my own using static site generators, like Hugo and Jekyll. My favorite tech stack for these sites is Hugo as a static site generator, with Sass for styling, Github for CI/CD and source control, and Forestry.io as a CMS: [https://medium.com/@tylerjlawson2/best-tech-stack-for-small-static-sites-7b6e64eff3c1](https://medium.com/@tylerjlawson2/best-tech-stack-for-small-static-sites-7b6e64eff3c1)",
 ]
 
 [[info]]
 name = "Technical Skills"
 points = [
-  "Proficient in Python, Java, Common Lisp, C++, Bash, CSS, and HTML",
-  "Coursework in Algorithm Engineering, Database Systems, Software Design, Operating Systems, Data Structures and Algorithms, Computer Organization and architecture, Discrete Structures, and Intro to Programming I and II",
-  "Currently taking capstone course and intro to machine learning"
+  "Proficient with React, Typescript, Bash/Unix, Python, and Hugo",
+  "Good with CI/CD (Github Actions & Gitlab CI/CD), Java, Common Lisp, and C++",
+  "Coursework in Algorithm Engineering, Database Systems, Software Design, Operating Systems, Data Structures and Algorithms, Computer Organization and architecture, Discrete Structures, and Intro to Programming I and II"
 ]

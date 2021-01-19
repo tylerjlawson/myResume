@@ -6,7 +6,7 @@
   "scripts": {
     "start": "hugo server",
     "build": "hugo",
-    "print": "node print.js"
+    "print": "hugo && node print.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn build && yarn print && git add Resume.pdf"
+      "pre-commit": "yarn print && git add Resume.pdf public"
     }
   }
 }
