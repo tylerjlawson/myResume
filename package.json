@@ -1,8 +1,7 @@
 {
-  "name": "myresume",
+  "name": "resume",
   "version": "1.0",
   "description": "Resume",
-  "main": "Gulpfile.js",
   "scripts": {
     "start": "hugo server",
     "build": "hugo",
@@ -11,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tylerjlawson/myResume.git"
+    "url": "git+https://github.com/tylerjlawson/resume.git"
   },
   "author": "tylerjlawson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tylerjlawson/myResume/issues"
+    "url": "https://github.com/tylerjlawson/resume/issues"
   },
-  "homepage": "https://github.com/tylerjlawson/myResume#readme",
+  "homepage": "https://github.com/tylerjlawson/resume#readme",
   "devDependencies": {
     "html-pdf": "^2.2.0",
     "prettier": "^2.0.5"
