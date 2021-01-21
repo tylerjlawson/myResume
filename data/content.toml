@@ -9,7 +9,7 @@ name = "Michigan State University"
 location = "East Lansing, MI"
 startdate = "Sept 2016"
 enddate = "May 2020"
-degrees = ["B.S. in Computer Science", "Minor in Entrepreneurship and Innovation"]
+degrees = ["B.S. in Computer Science & Minor in Entrepreneurship and Innovation"]
 
 [[schools]]
 name = "Boston College High School"
@@ -25,7 +25,7 @@ startdate = "May 2020"
 points = [
   "Joined in May and helped launch two enterprise websites for the start of the 2021 plan year",
   "Our websites use React native and Gatsby with Typescript with a shared React components library",
-  "Help maintain a Dotnet/C# api for consuming member insurance information",
+  "Help maintain a ASP.NET/C# API for consuming member insurance information",
   "Helped mentor teammates with our frontend technologies and have been responsible for a significant share of interteam communications (design, testing, business)"
 ]
 
@@ -36,7 +36,7 @@ location = "Louisville, KY"
 startdate = "May 2020"
 enddate = "Aug 2019"
 points = [
-  "Developed Python Flask API for a UI that will serve as project estimation management system for architects",
+  "Developed Python Flask API for a project management dashboard",
   "Worked with Azure pipelines and GCP app engine to facilitate CI/CD",
   "Worked on a second project, which was a dashboard that used Vue and .NET Core"
 ]
@@ -69,7 +69,7 @@ name = "Projects"
 points = [
   "I was team lead and full stack web developer on my capstone project which uses Machine Learning for image recognition and gps prediction of elephants",
   "I made a python script for re-naming and re-dating image files for family photos",
-  "I have made many websites on my own using static site generators, like Hugo and Jekyll. My favorite tech stack for these sites is Hugo as a static site generator, with Sass for styling, Github for CI/CD and source control, and Forestry.io as a CMS: [https://medium.com/@tylerjlawson2/best-tech-stack-for-small-static-sites-7b6e64eff3c1](https://medium.com/@tylerjlawson2/best-tech-stack-for-small-static-sites-7b6e64eff3c1)",
+  "I have made many websites on my own using static site generators, like Hugo and Jekyll. I wrote a medium article/tutorial about my favorite tech stack for small static sites: [https://medium.com/@tylerjlawson2/best-tech-stack-for-small-static-sites-7b6e64eff3c1](https://medium.com/@tylerjlawson2/best-tech-stack-for-small-static-sites-7b6e64eff3c1)",
 ]
 
 [[info]]
