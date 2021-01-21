@@ -22,7 +22,7 @@ jobs:
       - name: Install node dependencies
         uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: install # will run `yarn install` command
+          cmd: install --production=true
 
       - name: Print Resume
         run: node print.js
