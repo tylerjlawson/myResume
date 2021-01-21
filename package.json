@@ -5,7 +5,7 @@
   "scripts": {
     "start": "hugo server",
     "build": "hugo",
-    "preprint": "hugo",
+    "preprint": "yarn build",
     "print": "node print.js"
   },
   "repository": {
