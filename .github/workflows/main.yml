@@ -25,7 +25,13 @@ jobs:
 
       - name: Print Resume
         run: node print.js
-
+        
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v2.2.2
+        with:
+          name: Printed Resume
+          path: static/Resume.pdf
+          
       - uses: EndBug/add-and-commit@v7
         with:
           message: 'Updated resume print from pipeline'
