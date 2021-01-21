@@ -1,0 +1,5 @@
+title: Tyler's Resume
+theme: simple-resume
+disableKinds:
+  - taxonomy
+  - term
