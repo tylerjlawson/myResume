@@ -25,7 +25,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn print && git add Resume.pdf public"
+      "pre-commit": "yarn print && git add static/Resume.pdf"
     }
   }
 }

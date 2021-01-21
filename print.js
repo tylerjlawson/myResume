@@ -22,6 +22,6 @@ var options = {
   width: '8.5in'
 };
 
-pdf.create(html, options).toFile('./Resume.pdf', function (err, res) {
+pdf.create(html, options).toFile('./static/Resume.pdf', function (err, res) {
   if (err) return console.log(err);
 });
