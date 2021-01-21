@@ -24,7 +24,7 @@ location = "Boston, MA"
 startdate = "May 2020"
 points = [
   "Joined in May and helped launch two enterprise websites for the start of the 2021 plan year",
-  "Our websites use React native and Gatsby with Typescript with a shared React components library",
+  "Our websites use React and Gatsby with Typescript with a shared React components library",
   "Help maintain a ASP.NET/C# API for consuming member insurance information",
   "Helped mentor teammates with our frontend technologies and have been responsible for a significant share of interteam communications (design, testing, business)"
 ]
