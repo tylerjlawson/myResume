@@ -1,4 +1,4 @@
-name: Deploy to GH Pages
+name: Print Resume & Deploy to GH Pages
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
 
       - uses: EndBug/add-and-commit@v7
         with:
-          message: 'Updated resume print from $GITHUB_WORKFLOW'
+          message: 'Updated resume print from pipeline'
 
       - name: GitHub Pages
         uses: peaceiris/actions-gh-pages@v3.7.3
