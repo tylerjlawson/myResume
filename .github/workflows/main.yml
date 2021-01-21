@@ -17,6 +17,13 @@ jobs:
       - name: Build Hugo
         uses: srt32/hugo-action@v0.0.3
 
+      - name: Print Resume
+        run: node print.js
+
+      - uses: EndBug/add-and-commit@v7
+        with:
+          message: 'Updated resume print from $GITHUB_WORKFLOW'
+
       - name: GitHub Pages
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:

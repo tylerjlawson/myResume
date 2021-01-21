@@ -6,7 +6,8 @@
   "scripts": {
     "start": "hugo server",
     "build": "hugo",
-    "print": "hugo && node print.js"
+    "preprint": "hugo",
+    "print": "node print.js"
   },
   "repository": {
     "type": "git",
@@ -20,12 +21,6 @@
   "homepage": "https://github.com/tylerjlawson/myResume#readme",
   "devDependencies": {
     "html-pdf": "^2.2.0",
-    "husky": "^4.2.5",
     "prettier": "^2.0.5"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn print && git add static/Resume.pdf"
-    }
   }
 }
