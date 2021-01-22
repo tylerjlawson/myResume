@@ -4,71 +4,68 @@ phone: '7814248005'
 website: Tyler-Lawson.com
 github: TylerJLawson
 
-schools:
-  - name: Michigan State University
-    location: 'East Lansing, MI'
-    startdate: Sept 2016
-    enddate: May 2020
-    degrees:
-      - B.S. in Computer Science & Minor in Entrepreneurship and Innovation
-  - name: Boston College High School
-    location: 'Boston, MA'
-    startdate: Sept 2012
-    enddate: May 2016
-
-experiences:
-  - position: Software Engineer II
-    company: Author by Humana
-    location: 'Boston, MA'
-    startdate: May 2020
-    points:
-      - >-
-        Joined in May and helped launch two enterprise websites for the start of
-        the 2021 plan year
-      - >-
-        Our websites use React and Gatsby with Typescript with a shared React
-        components library
-      - >-
-        Help maintain a ASP.NET/C# API for consuming member insurance
-        information
-      - >-
-        Helped mentor teammates with our frontend technologies and have been
-        responsible for a significant share of interteam communications (design,
-        testing, business)
-  - position: Software Development Intern
-    company: Humana
-    location: 'Louisville, KY'
-    startdate: May 2020
-    enddate: Aug 2019
-    points:
-      - Developed Python Flask API for a project management dashboard
-      - Worked with Azure pipelines and GCP app engine to facilitate CI/CD
-      - >-
-        Worked on a second project, which was a dashboard that used Vue and .NET
-        Core
-  - position: Software Development Intern
-    company: 2Is inc.
-    location: 'Walpole, MA'
-    startdate: May 2018
-    enddate: August 2019
-    points:
-      - >-
-        Used Test Driven Development technique to develop an SAP Interface with
-        Northrop Grumman
-      - Wrote back-end code using Common Lisp
-      - Refactored legacy code and created new unit tests in Common Lisp
-  - position: Front End Development Intern
-    company: Getfused
-    location: 'Boston, MA'
-    startdate: May 2017
-    enddate: Aug 2017
-    points:
-      - Built sites for Wynn Casino and other small local businesses
-      - >-
-        Took mockups from photoshop files and translated the designs into
-        responsive CSS/HTML
-info:
-  - name: Projects
+sections:
+  - heading: Eduction
+    subsections:
+      - heading:
+          label: 'Michigan State University - East Lansing, MI'
+          startdate: Sept 2016
+          enddate: May 2020
+        degrees:
+          - B.S. in Computer Science & Minor in Entrepreneurship and Innovation
+      - heading:
+          label: Boston College High School - Boston, MA
+          startdate: Sept 2012
+          enddate: May 2016
+  - heading: Experiences
+    subsections:
+      - heading:
+          label: Software Engineer II at Author by Humana - Boston, MA
+          startdate: May 2020
+        points:
+          - >-
+            Joined in May and helped launch two enterprise websites for the start of
+            the 2021 plan year
+          - >-
+            Our websites use React and Gatsby with Typescript with a shared React
+            components library
+          - >-
+            Help maintain a ASP.NET/C# API for consuming member insurance
+            information
+          - >-
+            Helped mentor teammates with our frontend technologies and have been
+            responsible for a significant share of interteam communications (design,
+            testing, business)
+      - heading:
+          label: Software Development Intern at Humana - Louisville, KY
+          startdate: May 2020
+          enddate: Aug 2019
+        points:
+          - Developed Python Flask API for a project management dashboard
+          - Worked with Azure pipelines and GCP app engine to facilitate CI/CD
+          - >-
+            Worked on a second project, which was a dashboard that used Vue and .NET
+            Core
+      - heading:
+          label: Software Development Intern at 2Is inc. - Walpole, MA
+          startdate: May 2018
+          enddate: August 2019
+        points:
+          - >-
+            Used Test Driven Development technique to develop an SAP Interface with
+            Northrop Grumman
+          - Wrote back-end code using Common Lisp
+          - Refactored legacy code and created new unit tests in Common Lisp
+      - heading:
+          label: Front End Development Intern at Getfused - Boston, MA
+          startdate: May 2017
+          enddate: Aug 2017
+        points:
+          - Built sites for Wynn Casino and other small local businesses
+          - >-
+            Took mockups from photoshop files and translated the designs into
+            responsive CSS/HTML
+  - heading: Projects
     points:
       - >-
         I was team lead and full stack web developer on my capstone project
@@ -82,7 +79,7 @@ info:
         Hugo and Jekyll. I wrote a medium article/tutorial about my favorite
         tech stack for small static sites:
         [https://medium.com/@tylerjlawson2/best-tech-stack-for-small-static-sites-7b6e64eff3c1](https://medium.com/@tylerjlawson2/best-tech-stack-for-small-static-sites-7b6e64eff3c1)
-  - name: Technical Skills
+  - heading: Technical Skills
     points:
       - 'Proficient with React, Typescript, Bash/Unix, Python, and Hugo'
       - >-
