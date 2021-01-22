@@ -5,7 +5,7 @@ website: Tyler-Lawson.com
 github: TylerJLawson
 
 sections:
-  - heading: Eduction
+  - heading: Education
     subsections:
       - heading:
           label: Michigan State University - East Lansing, MI
@@ -17,7 +17,7 @@ sections:
           label: Boston College High School - Boston, MA
           startdate: Sept 2012
           enddate: May 2016
-  - heading: Experiences
+  - heading: Experience
     subsections:
       - heading:
           label: Software Engineer II at Author by Humana - Boston, MA
