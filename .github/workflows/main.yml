@@ -27,6 +27,9 @@ jobs:
       - name: Print Resume
         run: node print.js
 
+      - name: Remove print.css
+        run: sudo rm public/print.css
+
       - name: Upload Resume as an Artifact
         uses: actions/upload-artifact@v2.2.2
         with:
