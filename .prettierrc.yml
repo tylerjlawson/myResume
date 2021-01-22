@@ -1,4 +1,9 @@
 # prettier config
 tabWidth: 2
 singleQuote: true
-trailingComma: 'none'
+trailingComma: none
+overrides:
+  - files:
+      - '*.html'
+    options:
+      parser: go-template
