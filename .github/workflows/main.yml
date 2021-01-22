@@ -33,7 +33,7 @@ jobs:
       - name: Upload Resume as an Artifact
         uses: actions/upload-artifact@v2.2.2
         with:
-          name: printed-resume
+          name: Printed Resume
           path: static/Resume.pdf
 
       - name: Add & Commit Resume.pdf
