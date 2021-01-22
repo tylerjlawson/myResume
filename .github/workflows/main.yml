@@ -11,14 +11,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repo and submodules (hugo theme)
+        uses: actions/checkout@v2
         with:
           submodules: true
 
       - name: Build Hugo
         uses: srt32/hugo-action@v0.0.3
 
-      - name: Install node dependencies
+      - name: Install node dependencies for print.js
         uses: borales/actions-yarn@v2.3.0
         with:
           cmd: install --production=true
@@ -26,18 +27,19 @@ jobs:
       - name: Print Resume
         run: node print.js
 
-      - name: Upload a Build Artifact
+      - name: Upload Resume as an Artifact
         uses: actions/upload-artifact@v2.2.2
         with:
           name: printed-resume
           path: static/Resume.pdf
 
-      - uses: EndBug/add-and-commit@v7
+      - name: Add & Commit Resume.pdf
+        uses: EndBug/add-and-commit@v7
         with:
           message: 'Updated resume print from pipeline'
         if: github.ref == 'refs/heads/master'
 
-      - name: GitHub Pages
+      - name: GitHub Pages deployment
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
