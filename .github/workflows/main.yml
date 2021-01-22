@@ -25,14 +25,12 @@ jobs:
 
       - name: Print Resume
         run: node print.js
-        if: github.ref == 'refs/heads/master'
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.2
         with:
           name: printed-resume
           path: static/Resume.pdf
-        if: github.ref == 'refs/heads/master'
 
       - uses: EndBug/add-and-commit@v7
         with:
