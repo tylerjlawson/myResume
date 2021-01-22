@@ -12,7 +12,8 @@
     "start": "hugo server",
     "build": "hugo",
     "preprint": "yarn build",
-    "print": "node print.js"
+    "print": "node print.js",
+    "prettier": "prettier --write \"./**/*.{js,html,css,md}\""
   },
   "dependencies": {
     "html-pdf": "^2.2.0"
