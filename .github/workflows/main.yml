@@ -3,8 +3,6 @@ name: Print Resume & Deploy to GH Pages
 on:
   push:
     branches: [master]
-  pull_request:
-    branches: [master]
 
 jobs:
   deploy:
@@ -45,11 +43,6 @@ jobs:
         with:
           message: 'Updated resume print from pipeline'
         if: github.ref == 'refs/heads/master'
-
-      - uses: ahmadnassri/action-dependabot-auto-merge@v2
-        if: ${{ github.event_name == 'pull_request' }}
-        with:
-          github-token: ${{ secrets.TOKEN }}
 
       - name: GitHub Pages deployment
         uses: peaceiris/actions-gh-pages@v3.7.3
