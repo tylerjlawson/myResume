@@ -1,0 +1,46 @@
+name: Automerge dependabot
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo and submodules (hugo theme)
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build Hugo
+        uses: srt32/hugo-action@v0.0.3
+
+      - name: Install node dependencies for print.js
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: install --production=true
+
+      - name: Print Resume
+        run: node print.js
+
+      - name: Remove print.css
+        run: sudo rm public/print.css
+
+      - name: Upload Resume as an Artifact
+        uses: actions/upload-artifact@v2.2.2
+        with:
+          name: Printed Resume
+          path: static/Resume.pdf
+
+      - name: checkout repo
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+        with:
+          github-token: ${{ secrets.TOKEN }}
