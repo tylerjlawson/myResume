@@ -1,5 +1,6 @@
 const fs = require('fs');
 const pdf = require('html-pdf');
+
 var html = fs
   .readFileSync('./public/index.html', 'utf-8')
   .replace('main.css', './public/main.css')
@@ -9,7 +10,7 @@ var html = fs
   );
 const pieces = html.split('./');
 html = pieces.join(`file://${process.cwd()}/`);
-const my = '0.25in';
+const my = '0.5in';
 const mx = '0.5in';
 const options = {
   border: {
