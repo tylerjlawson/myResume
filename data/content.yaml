@@ -33,6 +33,8 @@ sections:
           - >-
             Our websites use React with Typescript with a shared components library. One site uses
             [Gatsby](https://www.gatsbyjs.com/), the React static site generator. The other uses React using create-react-app.
+          - >-
+            Our tests use Jest with React testing library. We test every component and page that we develop and run them automatically with each new MR.
           - Help build and maintain a .NET/C# API for consuming member insurance information.
           - >-
             I mentor teammates with our frontend technologies and have been
