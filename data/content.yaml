@@ -30,6 +30,7 @@ sections:
           - >-
             Joined in May and helped launch two websites for the start of 2021 and our
             first insurance plan year. See our public-facing site at [authorbyhumana.com](https://authorbyhumana.com)
+          # TODO Rephrase, use/with is repetitive
           - >-
             Our websites use React with Typescript with a shared components library. One site uses
             [Gatsby](https://www.gatsbyjs.com/), the React static site generator. The other uses React using create-react-app.
