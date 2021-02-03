@@ -13,13 +13,21 @@
     "build": "hugo",
     "preprint": "yarn build",
     "print": "node print.js",
-    "prettier": "prettier --write \"./**/*.{js,html,css,md}\""
+    "prettier": "prettier --write \"./**/*.{js,html,css,md}\"",
+    "grammar": "write-good data/content.yaml --parse"
   },
   "dependencies": {
     "html-pdf": "^2.2.0"
   },
   "devDependencies": {
+    "husky": "^4.3.8",
     "prettier": "^2.0.5",
-    "prettier-plugin-go-template": "^0.0.10"
+    "prettier-plugin-go-template": "^0.0.10",
+    "write-good": "^1.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn grammar"
+    }
   }
 }

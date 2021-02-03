@@ -41,14 +41,14 @@ sections:
             responsible for a significant share of inter-team communications (design,
             testing, business).
           - >-
-            I have been the primary developer responsible for mentoring our automation engineer in order to automate testing, deployments, and notifications.
+            I have been the primary developer responsible for mentoring our automation engineer with automating testing, deployments, and pipeline notifications.
       - heading:
           label: Software Development Intern at Humana - Louisville, KY
           startdate: May 2019
           enddate: May 2020
         points:
           - Developed Python Flask API for a project management dashboard.
-          - Worked with Azure pipelines and GCP app engine to facilitate CI/CD.
+          - Worked with Azure pipelines and GCP app engine for my team's CI/CD.
           - >-
             Worked on a second project, which was a dashboard that used Vue and .NET
             Core.
@@ -70,8 +70,8 @@ sections:
           enddate: Aug 2017
         points:
           - >-
-            The only web experience I had prior to this job was by using a GoDaddy
-            website builder. I learned how to build sites using simple CSS/HTML and then
+            Before Getfused, my web experience consisted of using a GoDaddy
+            website builder one time. I learned how to build sites using simple CSS/HTML and then
             found a new interest in static site generators, like [Hugo](https://gohugo.io)
             and [Jekyll](https://jekyllrb.com).
           - >-
@@ -92,22 +92,21 @@ sections:
 
   - heading: Capstone Project
     points:
-      - Our team won the [Urban Science Sigma Award](https://www.cse.msu.edu/~cse498/2019-08/design-day/awards/) for having the best overall Capstone experience.
+      - Our team won the [Urban Science Sigma Award](https://www.cse.msu.edu/~cse498/2019-08/design-day/awards/) for having the best Capstone experience.
       - >-
         I was the team lead, coordinating with our sponsors in Chicago and Johannesburg, South Africa.
       - >-
-        As the only developer on the team with web experience, I was tasked with creating a Python
-        Flask API and a Vue dashboard for our Elephant tracking and recognition system.
+        As the lone developer on the team with web experience, my responsibilities included creating a Python Flask API and a Vue dashboard for our Elephant tracking and recognition system.
       - >-
         Our application supported video image processing and GPS coordinate predictions so that
-        the elephants in South Africa could hopefully one day be tracked without obstructive and expensive tracking equipment.
+        the rangers in South Africa can track their elephants without obstructive or expensive equipment.
       - >-
         See our [team page here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/) and our [project video here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/project-video.mp4).
 
   - heading: Work With Static Site Generators
     points:
       - >-
-        I have done almost all of my side projects over the past 4 years with static site generators.
+        I have done most of my side projects over the past 4 years with static site generators.
       - >-
         I have made 3 Hugo themes and 7 sites using Hugo. [See this resume as a theme here!](https://themes.gohugo.io/simple-resume/). You can also view this resume as a webpage [here](https://tyler-lawson.com/resume). You can see my portfolio, where I showcase most of the sites I have made [here](https://tyler-lawson.com/#portfolio).
       - >-
@@ -123,7 +122,7 @@ sections:
       - >-
         A friend of mine who is a patent lawyer needs to screenshot every single page of a website for legal reasons. After hearing that he did this manually, I wrote a python script for him to automate the process.
       - >-
-        I wrote a personal repository to store all of my favorite configurations/dotfiles [here](https://github.com/tylerjlawson/dotfiles). My gitconfig is my pride and joy.
+        I wrote a personal repository to store my favorite configurations/dotfiles [here](https://github.com/tylerjlawson/dotfiles). My gitconfig is my pride and joy.
       - >-
         I wrote a medium article/tutorial about my favorite
         tech stack for small static sites: [click here to see the article](https://medium.com/@tylerjlawson2/best-tech-stack-for-small-static-sites-7b6e64eff3c1)
@@ -135,4 +134,4 @@ sections:
       - >-
         Growing up, I was unable to ever experience fresh bakery goods due to the potential cross contamination with nuts. After trying fresh baked bread from a friend's dutch oven in the winter of 2019, bread baking and pizza making has become a new hobby and passion for me.
       - >-
-        I have skied since I was 3 years old. It is especially nice when the east coast weather graces us with snow on top of the perpetual ice.
+        I have skied since I was 3 years old. It's nice when the east coast weather graces us with snow on top of the perpetual ice.
