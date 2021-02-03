@@ -39,7 +39,7 @@ sections:
           - >-
             I mentor teammates with our frontend technologies and have been
             responsible for a significant share of inter-team communications (design,
-            testing, business.
+            testing, business).
           - >-
             I have been the primary developer responsible for mentoring our automation engineer in order to automate testing, deployments, and notifications.
       - heading:
@@ -75,7 +75,7 @@ sections:
             found a new interest in static site generators, like [Hugo](https://gohugo.io)
             and [Jekyll](https://jekyllrb.com).
           - >-
-            Learned the importance of caring for CSS and and reusable components before
+            Learned the importance of caring for CSS and reusable components before
             anything else in web development.
           - Built sites for Wynn Casino and other small local businesses.
           - >-
@@ -109,7 +109,7 @@ sections:
       - >-
         I have done almost all of my side projects over the past 4 years with static site generators.
       - >-
-        I have made 3 Hugo themes and 7 sites using Hugo. [See this resume as a theme here!](https://themes.gohugo.io/simple-resume/). You can also view this resume as a webpage [here](https://tyler-lawson.com/resume). You can a portfolio of most of the sites I have made [here](https://tyler-lawson.com/#portfolio).
+        I have made 3 Hugo themes and 7 sites using Hugo. [See this resume as a theme here!](https://themes.gohugo.io/simple-resume/). You can also view this resume as a webpage [here](https://tyler-lawson.com/resume). You can see my portfolio, where I showcase most of the sites I have made [here](https://tyler-lawson.com/#portfolio).
       - >-
         I started with using Jekyll to make [my friend's first blog](https://thepulpit.github.io).
       - >-
