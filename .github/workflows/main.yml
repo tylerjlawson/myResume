@@ -41,7 +41,7 @@ jobs:
         if: github.ref == 'refs/heads/master'
       
       - name: Use latest resume in build
-        run: cp static/Resume.pdf public/Resume.pdf
+        run: sudo cp static/Resume.pdf public/Resume.pdf
 
       - name: GitHub Pages deployment
         uses: peaceiris/actions-gh-pages@v3.7.3
