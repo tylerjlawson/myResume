@@ -14,14 +14,8 @@ sections:
         degrees:
           - B.S. in Computer Science
           - Minor in Entrepreneurship and Innovation
-      - heading:
-          label: Boston College High School - Boston, MA
-          startdate: Sept 2012
-          enddate: May 2016
-        degrees:
-          - Diploma
 
-  - heading: Experience
+  - heading: Professional Experience
     subsections:
       - heading:
           label: Software Engineer II at Author by Humana - Boston, MA
@@ -89,20 +83,7 @@ sections:
       - Good with CI/CD (Github Actions and Gitlab CI/CD), Webpack, Gulp, Java, Common Lisp, and C++.
       - >-
         Coursework in Algorithm Engineering, Database Systems, Software Design,
-        Operating Systems, Mobile App Development, Data Structures and Algorithms, Computer Organization and architecture, Discrete Structures, and Intro to Programming I and II.
-
-  - heading: Capstone Project
-    points:
-      - Our team won the [Urban Science Sigma Award](https://www.cse.msu.edu/~cse498/2019-08/design-day/awards/) for having the best Capstone experience.
-      - >-
-        I was the team lead, coordinating with our sponsors in Chicago and Johannesburg, South Africa.
-      - >-
-        As the lone developer on the team with web experience, my responsibilities included creating a Python Flask API and a Vue dashboard for our Elephant tracking and recognition system.
-      - >-
-        Our application supported video image processing and GPS coordinate predictions so that
-        the rangers in South Africa can track their elephants without obstructive or expensive equipment.
-      - >-
-        See our [team page here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/) and our [project video here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/project-video.mp4).
+        Operating Systems, Mobile App Development, Data Structures and Algorithms, Computer Organization and architecture, and Discrete Structures.
 
   - heading: Work With Static Site Generators
     points:
@@ -115,7 +96,21 @@ sections:
       - >-
         The next framework I tried was a lightweight framework from Mozilla called [Nunjucks](https://mozilla.github.io/nunjucks/). I used this to make [my mother's small business site](https://visitingdentalhygiene.com).
 
-  - heading: Projects
+
+  - heading: Senior Capstone Project
+    points:
+      - Our team won the [Urban Science Sigma Award](https://www.cse.msu.edu/~cse498/2019-08/design-day/awards/) for having the best Capstone experience.
+      - >-
+        I was the team lead, coordinating with our sponsors in Chicago and Johannesburg, South Africa.
+      - >-
+        As the lone developer on the team with web experience, my responsibilities included creating a Python Flask API and a Vue dashboard for our Elephant tracking and recognition system.
+      - >-
+        Our application supported video image processing and GPS coordinate predictions so that
+        the rangers in South Africa can track their elephants without obstructive or expensive equipment.
+      - >-
+        See our [team page here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/) and our [project video here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/project-video.mp4).
+
+  - heading: Side Projects
     points:
       - >-
         I made a python script for re-naming and re-dating image files for
