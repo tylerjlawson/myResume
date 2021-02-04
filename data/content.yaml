@@ -5,16 +5,6 @@ website: Tyler-Lawson.com
 github: TylerJLawson
 
 sections:
-  - heading: Education
-    subsections:
-      - heading:
-          label: Michigan State University - East Lansing, MI
-          startdate: Sept 2016
-          enddate: May 2020
-        degrees:
-          - B.S. in Computer Science
-          - Minor in Entrepreneurship and Innovation
-
   - heading: Professional Experience
     subsections:
       - heading:
@@ -23,19 +13,14 @@ sections:
         points:
           - >-
             Joined in May and helped launch two websites for the start of 2021 and our
-            first insurance plan year. See our public-facing site at [authorbyhumana.com](https://authorbyhumana.com)
+            first insurance plan year. See our public-facing site at [authorbyhumana.com](https://authorbyhumana.com).
           - >-
-            Our websites are built on React with Typescript accompanied by a shared components library. One site uses
+            We have used React with Typescript accompanied by a shared components library to build our member dashboard and [authorbyhumana.com](https://authorbyhumana.com). One site uses
             [Gatsby](https://www.gatsbyjs.com/), the React static site generator. The other is using React with create-react-app.
           - >-
             Our tests use Jest with React testing library. We test every component and page that we develop and run them automatically with each new MR.
           - Help build and maintain a .NET/C# API for consuming member insurance information.
-          - >-
-            I mentor teammates with our frontend technologies and have been
-            responsible for a significant share of inter-team communications (design,
-            testing, business).
-          - >-
-            I have been the primary developer responsible for mentoring our automation engineer with automating testing, deployments, and pipeline notifications.
+
       - heading:
           label: Software Development Intern at Humana - Louisville, KY
           startdate: May 2019
@@ -54,9 +39,8 @@ sections:
           - >-
             Used Test Driven Development technique to develop an SAP Interface with
             Northrop Grumman. Worked overtime to complete this project at the end of the summer.
-          - Wrote back-end code using Common Lisp.
           - Refactored legacy code and created new unit tests in Common Lisp.
-          - Researched and demo'd new web frameworks for the web team.
+          - Researched and demo'd new web frameworks for the web team to adopt ([CL-Mustache](https://github.com/kanru/cl-mustache)).
           - Made installers using Inno Setup and Pascal.
       - heading:
           label: Front End Development Intern at Getfused - Boston, MA
@@ -64,25 +48,35 @@ sections:
           enddate: Aug 2017
         points:
           - >-
-            Before Getfused, my web experience consisted of using a GoDaddy
-            website builder one time. I learned how to build sites using simple CSS/HTML and then
-            found a new interest in static site generators, like [Hugo](https://gohugo.io)
-            and [Jekyll](https://jekyllrb.com).
+            Made sites for Boston area businesses and projects, like the Wynn Casino road
+            construction project.
           - >-
             Learned the importance of caring for CSS and reusable components before
             anything else in web development.
-          - Built sites for Wynn Casino and other small local businesses.
           - >-
             Took mockups from Photoshop files and translated the designs into
             responsive CSS/HTML.
 
   - heading: Technical Skills
     points:
-      - Proficient with React, Typescript/JS, Bash/Unix ([and Fish Shell!](https://fishshell.com/)), Python, Node (responsible for all team upgrades and scripting), SCSS/CSS, and Hugo.
-      - Good with CI/CD (Github Actions and Gitlab CI/CD), Webpack, Gulp, Java, Common Lisp, and C++.
+      - '**Frontend:** with React, Typescript/JS, Node, Webpack, Gulp, SCSS/CSS, and Hugo/Static Site Generators.'
+      - '**Backend:**  Python, Java, Common Lisp, and C++.'
       - >-
-        Coursework in Algorithm Engineering, Database Systems, Software Design,
-        Operating Systems, Mobile App Development, Data Structures and Algorithms, Computer Organization and architecture, and Discrete Structures.
+        **Other:** Bash/Unix ([and Fish Shell!](https://fishshell.com/)) and CI/CD
+        (Github Actions and Gitlab CI/CD)
+      - >-
+        **Coursework:** Algorithm Engineering, Database Systems, Software Design,
+        Operating Systems, Mobile App Development, Data Structures and Algorithms, and Discrete Structures
+
+  - heading: Education
+    subsections:
+      - heading:
+          label: Michigan State University - East Lansing, MI
+          startdate: Sept 2016
+          enddate: May 2020
+        degrees:
+          - B.S. in Computer Science
+          - Minor in Entrepreneurship and Innovation
 
   - heading: Work With Static Site Generators
     points:
@@ -95,6 +89,18 @@ sections:
       - >-
         The next framework I tried was a lightweight framework from Mozilla called [Nunjucks](https://mozilla.github.io/nunjucks/). I used this to make [my mother's small business site](https://visitingdentalhygiene.com).
 
+  - heading: Side Projects
+    points:
+      - >-
+        I made [a python script](https://github.com/tylerjlawson/pyscripts) for re-naming and re-dating image files for
+        family photos. They are now all on Google Photos for my Mom, Grandma, and myself to view at any time!
+      - >-
+        A friend of mine who is a patent lawyer needs to screenshot every single page of a website for legal reasons. After hearing that he did this manually, I wrote [a python script](https://github.com/tylerjlawson/screenshotter) for him to automate the process.
+      - >-
+        I wrote a personal repository to store my favorite configurations/dotfiles [here](https://github.com/tylerjlawson/dotfiles). My gitconfig is my pride and joy.
+      - >-
+        I wrote a medium article/tutorial about my favorite
+        tech stack for small static sites: [click here to see the article](https://medium.com/@tylerjlawson2/best-tech-stack-for-small-static-sites-7b6e64eff3c1)
 
   - heading: Senior Capstone Project
     points:
@@ -108,25 +114,3 @@ sections:
         the rangers in South Africa can track their elephants without obstructive or expensive equipment.
       - >-
         See our [team page here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/) and our [project video here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/project-video.mp4).
-
-  - heading: Side Projects
-    points:
-      - >-
-        I made a python script for re-naming and re-dating image files for
-        family photos. They are now all on Google Photos for my Mom, Grandma, and myself to view at any time!
-      - >-
-        A friend of mine who is a patent lawyer needs to screenshot every single page of a website for legal reasons. After hearing that he did this manually, I wrote a python script for him to automate the process.
-      - >-
-        I wrote a personal repository to store my favorite configurations/dotfiles [here](https://github.com/tylerjlawson/dotfiles). My gitconfig is my pride and joy.
-      - >-
-        I wrote a medium article/tutorial about my favorite
-        tech stack for small static sites: [click here to see the article](https://medium.com/@tylerjlawson2/best-tech-stack-for-small-static-sites-7b6e64eff3c1)
-
-  - heading: Hobbies
-    points:
-      - >-
-        I have a 10 month old portuguese water dog named Gus, so he and I have fun walking while I am taking a break from work. You can see a picture of him [here](https://tyler-lawson.com) (pro tip: there is a different picture shown as the background for the mobile sized breakpoint).
-      - >-
-        Growing up, I was unable to ever experience fresh bakery goods due to the potential cross contamination with nuts. After trying fresh baked bread from a friend's dutch oven in the winter of 2019, bread baking and pizza making has become a new hobby and passion for me.
-      - >-
-        I have skied since I was 3 years old. It's nice when the east coast weather graces us with snow on top of the perpetual ice.
