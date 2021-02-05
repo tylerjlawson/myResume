@@ -12,25 +12,39 @@ sections:
           startdate: May 2020
         points:
           - >-
-            Joined in May and helped launch two websites for the start of 2021 and our
-            first insurance plan year. See our public-facing site at [authorbyhumana.com](https://authorbyhumana.com).
+            I have been a core developer on the team responsible for creating [authorbyhumana.com]
+            (https://authorbyhumana.com) and our member dashboard,
+            [my.authorbyhumana.com](https://my.authorbyhumana.com).
+            [Author](https://www.businessinsider.com/humana-launches-author-to-compete-with-buzzy-insurance-startups-2021-1)
+            is a new brand from Humana, designed to reinvent medicare advantage care. (React/Typescript)
           - >-
-            We have used React with Typescript accompanied by a shared components library to build our member dashboard and [authorbyhumana.com](https://authorbyhumana.com). One site uses
-            [Gatsby](https://www.gatsbyjs.com/), the React static site generator. The other is using React with create-react-app.
+            I am one of the two approvers on my team responsible for reviewing all merge requests.
           - >-
-            Our tests use Jest with React testing library. We test every component and page that we develop and run them automatically with each new MR.
-          - Help build and maintain a .NET/C# API for consuming member insurance information.
+            Developed the largest share of features on the team to ensure a successful launch on
+            January 1st.
+          - >-
+            I have iteratively enhanced the team's jest tests with utility functions to
+            prevent pipeline timeouts and update fixes, as I have kept each of our node packages
+            up to date since last summer.
+          - >-
+            I am mentoring other developers on the team, including senior engineers, with our
+            frontend technologies and CI/CD. This has included developing an automatic deployment
+            flow through Gitlab (saves 30 minutes dev time per day) and Microsoft Teams notifications to alert the team when a scheduled Cypress end-to-end test fails.
 
       - heading:
           label: Software Development Intern at Humana - Louisville, KY
           startdate: May 2019
           enddate: May 2020
         points:
-          - Developed Python Flask API for a project management dashboard.
-          - Worked with Azure pipelines and GCP app engine for my team's CI/CD.
           - >-
-            Worked on a second project, which was a dashboard that used Vue and .NET
-            Core.
+            Lead a team of interns in developing a CRUD app for Humana architects to
+            collaborate on project estimations. This saved the architects
+            an average of one hour per day and reduced the chance for error. It replaced
+            their process of building estimations through email-chained excel spreadsheets.
+          - >-
+            With my second team at Humana, I refactored and enhanced
+            a Vue/.Net dashboard that serves as a real-time incident report tracker.
+
       - heading:
           label: Software Development Intern at 2Is inc. - Walpole, MA
           startdate: May 2018
@@ -39,9 +53,11 @@ sections:
           - >-
             Used Test Driven Development technique to develop an SAP Interface with
             Northrop Grumman. Worked overtime to complete this project at the end of the summer.
-          - Refactored legacy code and created new unit tests in Common Lisp.
+          - >-
+            Started the summer by learning Common lisp through refactoring legacy code
+            and writing all the new unit tests for the company.
           - Researched and demo'd new web frameworks for the web team to adopt ([CL-Mustache](https://github.com/kanru/cl-mustache)).
-          - Made installers using Inno Setup and Pascal.
+
       - heading:
           label: Front End Development Intern at Getfused - Boston, MA
           startdate: May 2017
@@ -53,20 +69,14 @@ sections:
           - >-
             Learned the importance of caring for CSS and reusable components before
             anything else in web development.
-          - >-
-            Took mockups from Photoshop files and translated the designs into
-            responsive CSS/HTML.
 
   - heading: Technical Skills
     points:
-      - '**Frontend:** with React, Typescript/JS, Node, Webpack, Gulp, SCSS/CSS, and Hugo/Static Site Generators.'
+      - '**Frontend:** with React, Typescript/JS, Node, Webpack, Gulp, SCSS/CSS, and Hugo.'
       - '**Backend:**  Python, Java, Common Lisp, and C++.'
       - >-
         **Other:** Bash/Unix ([and Fish Shell!](https://fishshell.com/)) and CI/CD
         (Github Actions and Gitlab CI/CD)
-      - >-
-        **Coursework:** Algorithm Engineering, Database Systems, Software Design,
-        Operating Systems, Mobile App Development, Data Structures and Algorithms, and Discrete Structures
 
   - heading: Education
     subsections:
