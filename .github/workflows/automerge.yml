@@ -12,10 +12,6 @@ jobs:
         with:
           submodules: true
 
-      - uses: ahmadnassri/action-dependabot-auto-merge@v2
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Build Hugo
         uses: srt32/hugo-action@v0.0.3
 
@@ -35,11 +31,6 @@ jobs:
         with:
           name: Printed Resume
           path: static/Resume.pdf
-
-      - name: checkout repo
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
 
       - uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
