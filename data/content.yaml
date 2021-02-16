@@ -23,7 +23,7 @@ sections:
             [my.authorbyhumana.com](https://my.authorbyhumana.com), built with Typescript
             and React.
           - >-
-            Author is a new brand from Humana, designed to reinvent medicare advantage care.
+            Author is a new brand from Humana, designed to reinvent medicare advantage.
           - >-
             One of the two approvers on my team responsible for reviewing all merge requests.
           - >-
@@ -37,7 +37,7 @@ sections:
             Mentoring other developers on the team, with our frontend technologies and CI/CD.
           - >-
             Automated environment and production deployments in Gitlab, which has saved 30 minutes
-            of developer time per day
+            of developer time per day.
           - >-
             Integrated our projects on Gitlab with Jira, Microsoft Teams, and Artifactory.
 
