@@ -7,8 +7,8 @@ github: TylerJLawson
 sections:
   - heading: Technical Skills
     points:
-      - '**Frontend:** React, Typescript, Javascript, Webpack, Gulp, SCSS/CSS, and Hugo.'
-      - '**Backend:** Node, Express, Python, SQL, NoSQL, Java, Common Lisp, and C++.'
+      - '**Frontend:** React, Typescript, Javascript, Webpack, Gulp, SCSS/CSS, and Hugo'
+      - '**Backend:** Node, Express, Python, SQL, NoSQL, Java, Common Lisp, and C++'
       - >-
         **Other:** Git, Bash/Unix, Jira, Agile, Scrum, and CI/CD
 
