@@ -30,7 +30,7 @@ sections:
             flow through Gitlab (saves 30 minutes dev time per day) and Microsoft Teams notifications to alert the team when a scheduled Cypress end-to-end test fails.
 
       - heading:
-          label: Software Development Intern at Humana - Louisville, KY
+          label: Software Developer at Humana - Louisville, KY
           startdate: May 2019
           enddate: May 2020
         points:
@@ -44,7 +44,7 @@ sections:
             a Vue/.Net dashboard that serves as a real-time incident report tracker.
 
       - heading:
-          label: Software Development Intern at 2Is inc. - Walpole, MA
+          label: Software Developer at 2Is inc. - Walpole, MA
           startdate: May 2018
           enddate: August 2019
         points:
@@ -54,10 +54,11 @@ sections:
           - >-
             Started the summer by learning Common lisp through refactoring legacy code
             and writing all the new unit tests for the company.
-          - Researched and demo'd new web frameworks for the web team to adopt ([CL-Mustache](https://github.com/kanru/cl-mustache)).
+          - >-
+            Researched and demo'd new web frameworks for the web team to adopt ([CL-Mustache](https://github.com/kanru/cl-mustache)).
 
       - heading:
-          label: Front End Development Intern at Getfused - Boston, MA
+          label: Front End Developer at Getfused - Boston, MA
           startdate: May 2017
           enddate: Aug 2017
         points:
@@ -85,12 +86,32 @@ sections:
         degrees:
           - B.S. in Computer Science & Minor in Entrepreneurship and Innovation
 
-  - heading: Work With Static Site Generators
+  - heading: Evolutio Elephant Preservation Detection and GPS Prediction App
     points:
       - >-
-        I have done most of my side projects over the past 4 years with static site generators.
+        Led a team of developers to develop an application to help protect and save elephants in
+        South Africa from poachers. [Read more from Evolutio here](https://www.evolutiops.com/post/drone-elephant-ml-app-aids-nonprofit-team-evolutio-wins-best-for-compsci-at-msus-design-day). You can also see the article from ERP (Elephants, Rhinos, & People), if you [click here](https://www.erp.ngo/updates/2019/12/20/drone-elephant-recognition-app-aids-nonprofit-team-evolutio-wins-best-overall-for-computer-science-at-msus-design-day).
       - >-
-        I have made 3 Hugo themes and 7 sites using Hugo. [See this resume as a theme here!](https://themes.gohugo.io/simple-resume/). You can also view this resume as a webpage [here](https://tyler-lawson.com/resume). You can see my portfolio, where I showcase most of the sites I have made [here](https://tyler-lawson.com/#portfolio).
+        Won the
+        [Urban Science Sigma Award](https://www.cse.msu.edu/~cse498/2019-08/design-day/awards/)
+        for having the best Capstone experience.
+      - >-
+        As the lone developer on the team with web experience, my responsibilities included creating a Python Flask API and a Vue dashboard for our Elephant tracking and recognition system.
+      - >-
+        Our application supported video image processing and GPS coordinate predictions so that
+        the rangers in South Africa can track their elephants without obstructive or expensive equipment.
+      - >-
+        See our [team page here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/) and our [project video here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/project-video.mp4).
+
+  - heading: Open Source Contributions
+    points:
+      - >-
+        Fixed a [Material UI](https://github.com/mui-org/material-ui) accessibility bug with the
+        Autocomplete component. [Click here to see the pull request.](https://github.com/mui-org/material-ui/pull/22712).
+      - >-
+        I have made 3 Hugo themes and 7 sites using Hugo. [See my resume as a theme here](https://themes.gohugo.io/simple-resume/). You can also view this resume as a webpage [here](https://tyler-lawson.com/resume).
+      - >-
+        You can see my portfolio, where I showcase most of the sites I have made [here](https://tyler-lawson.com/#portfolio).
       - >-
         I started with using Jekyll to make [my friend's first blog](https://thepulpit.github.io).
       - >-
@@ -104,23 +125,10 @@ sections:
       - >-
         A friend of mine who is a patent lawyer needs to screenshot every single page of a website for legal reasons. After hearing that he did this manually, I wrote [a python script](https://github.com/tylerjlawson/screenshotter) for him to automate the process.
       - >-
-        I wrote a personal repository to store my favorite configurations/dotfiles [here](https://github.com/tylerjlawson/dotfiles). My gitconfig is my pride and joy.
+        I wrote a personal repository to store my favorite configurations/dotfiles [here](https://github.com/tylerjlawson/dotfiles).
       - >-
         I wrote a medium article/tutorial about my favorite
         tech stack for small static sites: [click here to see the article](https://medium.com/@tylerjlawson2/best-tech-stack-for-small-static-sites-7b6e64eff3c1)
-
-  - heading: Senior Capstone Project
-    points:
-      - Our team won the [Urban Science Sigma Award](https://www.cse.msu.edu/~cse498/2019-08/design-day/awards/) for having the best Capstone experience.
-      - >-
-        I was the team lead, coordinating with our sponsors in Chicago and Johannesburg, South Africa.
-      - >-
-        As the lone developer on the team with web experience, my responsibilities included creating a Python Flask API and a Vue dashboard for our Elephant tracking and recognition system.
-      - >-
-        Our application supported video image processing and GPS coordinate predictions so that
-        the rangers in South Africa can track their elephants without obstructive or expensive equipment.
-      - >-
-        See our [team page here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/) and our [project video here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/project-video.mp4).
 
   - heading: Hobbies
     points:
