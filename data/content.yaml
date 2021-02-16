@@ -7,7 +7,7 @@ github: TylerJLawson
 sections:
   - heading: Technical Skills
     points:
-      - '**Frontend:** React, Typescript, Javascript, Webpack, Gulp, SCSS/CSS, and Hugo'
+      - '**Frontend:** React, Typescript/Javascript, Webpack, Gulp, SCSS/CSS, and Hugo'
       - '**Backend:** Node, Express, Python, SQL, NoSQL, Java, Common Lisp, and C++'
       - >-
         **Other:** Git, Bash/Unix, Jira, Agile, Scrum, and CI/CD
@@ -19,11 +19,7 @@ sections:
           startdate: May 2020
         points:
           - >-
-            I have been a core developer on the team responsible for creating [authorbyhumana.com](https://authorbyhumana.com) and our member dashboard,
-            [my.authorbyhumana.com](https://my.authorbyhumana.com), built with Typescript
-            and React.
-          - >-
-            Author is a new brand from Humana, designed to reinvent medicare advantage.
+            Core developer on the Consumer Experience team responsible for creating [authorbyhumana.com](https://authorbyhumana.com) and our member dashboard, [my.authorbyhumana.com](https://my.authorbyhumana.com), built with Typescript and React.
           - >-
             One of the two approvers on my team responsible for reviewing all merge requests.
           - >-
@@ -115,10 +111,10 @@ sections:
         Fixed an accessibility bug for Material UI to help their Autocomplete component meet
         WCAG standards.
       - >-
-        I have made 3 Hugo themes and 7 sites using Hugo - the world's fastest framework for
+        Made 3 Hugo themes and 7 sites using Hugo - the world's fastest framework for
         building websites.
       - >-
-        I used Nunjucks, a rich and powerful templating language for Javascript, to build
+        Used Nunjucks, a rich and powerful templating language for Javascript, to build
         [my mother's small business site](https://visitingdentalhygiene.com).
 
   - heading: Side Projects
@@ -132,9 +128,9 @@ sections:
         [this python script](https://github.com/tylerjlawson/screenshotter) for him to automate
         the process.
       - >-
-        I wrote a personal repository to store my favorite configurations/dotfiles [here](https://github.com/tylerjlawson/dotfiles).
+        Created a personal repository to store my favorite configurations/dotfiles [here](https://github.com/tylerjlawson/dotfiles).
       - >-
-        I wrote a medium article/tutorial about my favorite
+        Wrote a medium article/tutorial about my favorite
         tech stack for small static sites: [click here to see the article](https://medium.com/@tylerjlawson2/best-tech-stack-for-small-static-sites-7b6e64eff3c1)
 
   - heading: Hobbies
