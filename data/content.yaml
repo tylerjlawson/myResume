@@ -107,7 +107,7 @@ sections:
     points:
       - >-
         Fixed a [Material UI](https://github.com/mui-org/material-ui) accessibility bug with the
-        Autocomplete component. [Click here to see the pull request.](https://github.com/mui-org/material-ui/pull/22712).
+        Autocomplete component. [Click here to see the pull request](https://github.com/mui-org/material-ui/pull/22712).
       - >-
         I have made 3 Hugo themes and 7 sites using Hugo. [See my resume as a theme here](https://themes.gohugo.io/simple-resume/). You can also view this resume as a webpage [here](https://tyler-lawson.com/resume).
       - >-
