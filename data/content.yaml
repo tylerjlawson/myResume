@@ -103,16 +103,12 @@ sections:
         Led a team of developers to develop an application to help protect and save elephants in
         South Africa from poachers. [Read more from Evolutio here](https://www.evolutiops.com/post/drone-elephant-ml-app-aids-nonprofit-team-evolutio-wins-best-for-compsci-at-msus-design-day). You can also see the article from ERP (Elephants, Rhinos, & People), if you [click here](https://www.erp.ngo/updates/2019/12/20/drone-elephant-recognition-app-aids-nonprofit-team-evolutio-wins-best-overall-for-computer-science-at-msus-design-day).
       - >-
-        Won the
-        [Urban Science Sigma Award](https://www.cse.msu.edu/~cse498/2019-08/design-day/awards/)
-        for having the best Capstone experience.
+        Won the Urban Science Sigma Award for having the best Capstone experience.
       - >-
         As the lone developer on the team with web experience, my responsibilities included creating a Python Flask API and a Vue dashboard for our Elephant tracking and recognition system.
       - >-
         Our application supported video image processing and GPS coordinate predictions so that
         the rangers in South Africa can track their elephants without obstructive or expensive equipment.
-      - >-
-        See our [team page here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/) and our [project video here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/project-video.mp4).
 
   - heading: Open Source Work
     points:
