@@ -71,7 +71,7 @@ sections:
             Started my summer internship by learning Common lisp through refactoring legacy code
             and developing all new unit tests for the company.
           - >-
-            Researched and demo'd new web frameworks for the web team to adopt ([CL-Mustache](https://github.com/kanru/cl-mustache)).
+            Researched and demo'd new web frameworks for the team to adopt.
 
       - heading:
           label: Front End Developer at Getfused - Boston, MA
@@ -82,8 +82,7 @@ sections:
             Made sites for Boston area businesses and projects, like the Wynn Casino road
             construction project.
           - >-
-            Learned the importance of caring for CSS and reusable components before
-            anything else in web development.
+            Learned the importance of caring for CSS and reusable components.
           - >-
             As an intern, I was working in the same capacity as every other frontend
             developer at Getfused after my first month of getting up to speed.
