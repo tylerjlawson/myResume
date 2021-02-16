@@ -5,6 +5,13 @@ website: Tyler-Lawson.com
 github: TylerJLawson
 
 sections:
+  - heading: Technical Skills
+    points:
+      - '**Frontend:** React, Typescript, Javascript, Webpack, Gulp, SCSS/CSS, and Hugo.'
+      - '**Backend:** Node, Express, Python, SQL, NoSQL, Java, Common Lisp, and C++.'
+      - >-
+        **Other:** Git, Bash/Unix, Jira, Agile, Scrum, and CI/CD
+
   - heading: Professional Experience
     subsections:
       - heading:
@@ -13,21 +20,26 @@ sections:
         points:
           - >-
             I have been a core developer on the team responsible for creating [authorbyhumana.com](https://authorbyhumana.com) and our member dashboard,
-            [my.authorbyhumana.com](https://my.authorbyhumana.com), built using Typescript and React. Author is a new brand from Humana, designed to reinvent medicare
-            advantage care. [Read more here]((https://www.businessinsider.com/humana-launches-author-to-compete-with-buzzy-insurance-startups-2021-1))
+            [my.authorbyhumana.com](https://my.authorbyhumana.com), built with Typescript
+            and React.
           - >-
-            I am one of the two approvers on my team responsible for reviewing all merge requests.
+            Author is a new brand from Humana, designed to reinvent medicare advantage care. [Read more here](https://www.businessinsider.com/humana-launches-author-to-compete-with-buzzy-insurance-startups-2021-1)
           - >-
-            Developed the largest share of features on the team to ensure a successful launch on
-            January 1st.
+            One of the two approvers on my team responsible for reviewing all merge requests.
           - >-
-            I have iteratively enhanced the team's jest tests with utility functions to
+            Developed the largest share of features on the team to ensure a
+            successful launch on January 1st.
+          - >-
+            Enhanced the team's jest tests with utility functions to
             prevent pipeline timeouts and update fixes, as I have kept each of our node packages
             up to date since last summer.
           - >-
-            I am mentoring other developers on the team, including senior engineers, with our
-            frontend technologies and CI/CD. This has included developing an automatic deployment
-            flow through Gitlab (saves 30 minutes dev time per day) and Microsoft Teams notifications to alert the team when a scheduled Cypress end-to-end test fails.
+            Mentoring other developers on the team, with our frontend technologies and CI/CD.
+          - >-
+            Automated environment and production deployments in Gitlab, which has saved 30 minutes
+            of developer time per day
+          - >-
+            Integrated our projects on Gitlab with Jira, Microsoft Teams, and Artifactory.
 
       - heading:
           label: Software Developer at Humana - Louisville, KY
@@ -35,10 +47,14 @@ sections:
           enddate: May 2020
         points:
           - >-
-            Lead a team of interns in developing a CRUD app for Humana architects to
-            collaborate on project estimations. This saved the architects
-            an average of one hour per day and reduced the chance for error. It replaced
-            their process of building estimations through email-chained excel spreadsheets.
+            As team lead on my intern team, I helped develop a CRUD app for Humana architects to
+            collaborate on project estimations.
+          - >-
+            This saved the architects an average of one hour per day and reduced the
+            chance for error when estimating.
+          - >-
+            Our project replaced their process of building estimations through
+            email-chained excel spreadsheets.
           - >-
             With my second team at Humana, I refactored and enhanced
             a Vue/.Net dashboard that serves as a real-time incident report tracker.
@@ -46,14 +62,14 @@ sections:
       - heading:
           label: Software Developer at 2Is inc. - Walpole, MA
           startdate: May 2018
-          enddate: August 2019
+          enddate: Aug 2019
         points:
           - >-
             Used Test Driven Development technique to develop an SAP Interface with
             Northrop Grumman. Worked overtime to complete this project at the end of the summer.
           - >-
-            Started the summer by learning Common lisp through refactoring legacy code
-            and writing all the new unit tests for the company.
+            Started my summer internship by learning Common lisp through refactoring legacy code
+            and developing all new unit tests for the company.
           - >-
             Researched and demo'd new web frameworks for the web team to adopt ([CL-Mustache](https://github.com/kanru/cl-mustache)).
 
@@ -68,14 +84,9 @@ sections:
           - >-
             Learned the importance of caring for CSS and reusable components before
             anything else in web development.
-
-  - heading: Technical Skills
-    points:
-      - '**Frontend:** with React, Typescript/JS, Node, Webpack, Gulp, SCSS/CSS, and Hugo.'
-      - '**Backend:**  Python, Java, Common Lisp, and C++.'
-      - >-
-        **Other:** Bash/Unix ([and Fish Shell!](https://fishshell.com/)) and CI/CD
-        (Github Actions and Gitlab CI/CD)
+          - >-
+            As an intern, I was working in the same capacity as every other frontend
+            developer at Getfused after my first month of getting up to speed.
 
   - heading: Education
     subsections:
@@ -86,7 +97,7 @@ sections:
         degrees:
           - B.S. in Computer Science & Minor in Entrepreneurship and Innovation
 
-  - heading: Evolutio Elephant Preservation Detection and GPS Prediction App
+  - heading: Eleface - Elephant Preservation Application
     points:
       - >-
         Led a team of developers to develop an application to help protect and save elephants in
@@ -103,27 +114,28 @@ sections:
       - >-
         See our [team page here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/) and our [project video here](https://www.cse.msu.edu/~cse498/2019-08/projects/evolutio/project-video.mp4).
 
-  - heading: Open Source Contributions
+  - heading: Open Source Work
     points:
       - >-
-        Fixed a [Material UI](https://github.com/mui-org/material-ui) accessibility bug with the
-        Autocomplete component. [Click here to see the pull request](https://github.com/mui-org/material-ui/pull/22712).
+        Fixed an accessibility bug for Material UI to help their Autocomplete component meet
+        WCAG standards.
       - >-
-        I have made 3 Hugo themes and 7 sites using Hugo. [See my resume as a theme here](https://themes.gohugo.io/simple-resume/). You can also view this resume as a webpage [here](https://tyler-lawson.com/resume).
+        I have made 3 Hugo themes and 7 sites using Hugo - the world's fastest framework for
+        building websites.
       - >-
-        You can see my portfolio, where I showcase most of the sites I have made [here](https://tyler-lawson.com/#portfolio).
-      - >-
-        I started with using Jekyll to make [my friend's first blog](https://thepulpit.github.io).
-      - >-
-        The next framework I tried was a lightweight framework from Mozilla called [Nunjucks](https://mozilla.github.io/nunjucks/). I used this to make [my mother's small business site](https://visitingdentalhygiene.com).
+        I used Nunjucks, a rich and powerful templating language for Javascript, to build
+        [my mother's small business site](https://visitingdentalhygiene.com).
 
   - heading: Side Projects
     points:
       - >-
-        I made [a python script](https://github.com/tylerjlawson/pyscripts) for re-naming and re-dating image files for
-        family photos. They are now all on Google Photos for my Mom, Grandma, and myself to view at any time!
+        I made [a python script](https://github.com/tylerjlawson/pyscripts) for re-naming and
+        re-dating image files for family photos. They are now all on Google Photos for my Mom,
+        Grandma, and myself to view at any time!
       - >-
-        A friend of mine who is a patent lawyer needs to screenshot every single page of a website for legal reasons. After hearing that he did this manually, I wrote [a python script](https://github.com/tylerjlawson/screenshotter) for him to automate the process.
+        My friend needed a way to automatically screenshot all pages of a website, so I built
+        [this python script](https://github.com/tylerjlawson/screenshotter) for him to automate
+        the process.
       - >-
         I wrote a personal repository to store my favorite configurations/dotfiles [here](https://github.com/tylerjlawson/dotfiles).
       - >-
