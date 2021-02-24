@@ -35,6 +35,9 @@ sections:
             Automated environment and production deployments in Gitlab, which has saved 30 minutes
             of developer time per day.
           - >-
+            Helping to make team architecture decisions such as which CMS vendor to use and
+            how to reinvent our interview process.
+          - >-
             Integrated our projects on Gitlab with Jira, Microsoft Teams, and Artifactory.
 
       - heading:
