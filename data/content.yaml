@@ -7,7 +7,7 @@ github: TylerJLawson
 sections:
   - heading: Technical Skills
     points:
-      - '**Frontend:** React, Typescript/Javascript, Webpack, Gulp, SCSS/CSS, and Hugo'
+      - '**Frontend:** React, Typescript/Javascript, Webpack, Gulp, SCSS/CSS, Material UI, and Hugo'
       - '**Backend:** Node, Express, Python, SQL, NoSQL, Java, Common Lisp, and C++'
       - >-
         **Other:** Git, Bash/Unix, Jira, Agile, Scrum, and CI/CD
@@ -23,8 +23,8 @@ sections:
           - >-
             One of the two approvers on my team responsible for reviewing all merge requests.
           - >-
-            Developed the largest share of features on the team to ensure a
-            successful launch on January 1st.
+            Developed the team's React components library, which uses Storybook for documentation.
+            Storybook has helped me align with the Design team at the component level.
           - >-
             Enhanced the team's jest tests with utility functions to
             prevent pipeline timeouts and update fixes, as I have kept each of our node packages
@@ -32,11 +32,11 @@ sections:
           - >-
             Mentoring other developers on the team, with our frontend technologies and CI/CD.
           - >-
-            Automated environment and production deployments in Gitlab, which has saved 30 minutes
-            of developer time per day.
+            Automated environment deployments in Gitlab, which has saved 30 minutes
+            of dev time per day.
           - >-
-            Helping to make team architecture decisions such as which CMS vendor to use and
-            how to reinvent our interview process.
+            Making team leadership decision such as which CMS vendor to integrate with and how to
+            interview new candidates.
           - >-
             Integrated our projects on Gitlab with Jira, Microsoft Teams, and Artifactory.
 
