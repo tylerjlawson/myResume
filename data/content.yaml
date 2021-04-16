@@ -10,27 +10,30 @@ sections:
       - '**Frontend:** React, Typescript/Javascript, Webpack, Gulp, SCSS/CSS, Material UI, and Hugo'
       - '**Backend:** Node, Express, Python, SQL, NoSQL, Java, Common Lisp, and C++'
       - >-
-        **Other:** Git, Bash/Unix, Jira, Agile, Scrum, and CI/CD
+        **Other:** Git, Bash/Unix, NPM, Yarn, Jira, Agile, Scrum, and CI/CD
 
   - heading: Professional Experience
     subsections:
       - heading:
-          label: Software Engineer II at Author by Humana - Boston, MA
+          label: Senior Software Engineer & SE II at Author by Humana - Boston, MA
           startdate: May 2020
         points:
           - >-
-            Core developer on the Consumer Experience team responsible for creating [authorbyhumana.com](https://authorbyhumana.com) and our member dashboard, [my.authorbyhumana.com](https://my.authorbyhumana.com), built with Typescript and React.
+            Core developer on the Consumer Experience team responsible for creating [authorbyhumana.com](https://authorbyhumana.com) and our member dashboard,
+            [my.authorbyhumana.com](https://my.authorbyhumana.com), built with Typescript and React.
           - >-
-            One of the two approvers on my team responsible for reviewing all merge requests.
+            Built sites from scratch to full-fledged enterprise applications that now has over 1000 active members.
+          - >-
+            Primary reviewer on all team pull/merge requests responsible for maintaining code quality.
           - >-
             Developed the team's React components library, which uses Storybook for documentation.
             Storybook has helped me align with the Design team at the component level.
           - >-
+            Mentoring other developers on the team, with our frontend technologies and CI/CD.
+          - >-
             Enhanced the team's jest tests with utility functions to
             prevent pipeline timeouts and update fixes, as I have kept each of our node packages
             up to date since last summer.
-          - >-
-            Mentoring other developers on the team, with our frontend technologies and CI/CD.
           - >-
             Automated environment deployments in Gitlab (saves 30 minutes per day).
           - >-
@@ -50,9 +53,6 @@ sections:
           - >-
             This saved the architects one hour per day and reduced the
             chance for error when estimating.
-          - >-
-            Our project replaced their process of building estimations through
-            email-chained excel spreadsheets.
           - >-
             With my second team at Humana, I refactored and enhanced
             a Vue/.Net dashboard that serves as a real-time incident report tracker.
@@ -110,7 +110,7 @@ sections:
   - heading: Open Source Work
     points:
       - >-
-        Created [sprt.dev](https://sprt.dev), a terminal friendly web application for viewing your 
+        Created [sprt.dev](https://sprt.dev), a terminal friendly web application for viewing your
         favorite pro sport schedules with ease using Node JS/Express, Heroku, and Github Actions.
         [See code here](https://github.com/tylerjlawson/sprt.dev).
       - >-
